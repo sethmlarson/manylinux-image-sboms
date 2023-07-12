@@ -1,0 +1,2520 @@
+{
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft"
+  },
+  "job": {},
+  "manifests": {
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/bin/python3.10": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/bin/python3.10"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/bin/python3.10",
+      "resolved": {
+        "pkg:generic/python@3.10.12": {
+          "package_url": "pkg:generic/python@3.10.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/build@0.10.0": {
+          "package_url": "pkg:pypi/build@0.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/packaging@23.1": {
+          "package_url": "pkg:pypi/packaging@23.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@23.1.2": {
+          "package_url": "pkg:pypi/pip@23.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyproject-hooks@1.0.0": {
+          "package_url": "pkg:pypi/pyproject_hooks@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/setuptools@68.0.0": {
+          "package_url": "pkg:pypi/setuptools@68.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@2.0.1": {
+          "package_url": "pkg:pypi/tomli@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/wheel@0.40.0": {
+          "package_url": "pkg:pypi/wheel@0.40.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.12.0b3/bin/python3.12": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.12.0b3/bin/python3.12"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.12.0b3/bin/python3.12",
+      "resolved": {
+        "pkg:generic/python@3.12.0b3": {
+          "package_url": "pkg:generic/python@3.12.0b3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/build@0.9.0": {
+          "package_url": "pkg:pypi/build@0.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.8.3": {
+          "package_url": "pkg:pypi/importlib-metadata@4.8.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/packaging@21.3": {
+          "package_url": "pkg:pypi/packaging@21.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pep517@0.13.0": {
+          "package_url": "pkg:pypi/pep517@0.13.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@21.3.1": {
+          "package_url": "pkg:pypi/pip@21.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyparsing@3.1.0": {
+          "package_url": "pkg:pypi/pyparsing@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/setuptools@59.6.0": {
+          "package_url": "pkg:pypi/setuptools@59.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@1.2.3": {
+          "package_url": "pkg:pypi/tomli@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.1.1": {
+          "package_url": "pkg:pypi/typing_extensions@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/wheel@0.37.1": {
+          "package_url": "pkg:pypi/wheel@0.37.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/zipp@3.6.0": {
+          "package_url": "pkg:pypi/zipp@3.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@6.7.0": {
+          "package_url": "pkg:pypi/importlib-metadata@6.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.7.1": {
+          "package_url": "pkg:pypi/typing_extensions@4.7.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/zipp@3.15.0": {
+          "package_url": "pkg:pypi/zipp@3.15.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/auditwheel@5.4.0": {
+          "package_url": "pkg:pypi/auditwheel@5.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyelftools@0.29": {
+          "package_url": "pkg:pypi/pyelftools@0.29",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/cmake@3.26.4": {
+          "package_url": "pkg:pypi/cmake@3.26.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/patchelf@0.17.2.1": {
+          "package_url": "pkg:pypi/patchelf@0.17.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/swig@4.1.1": {
+          "package_url": "pkg:pypi/swig@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/cffi.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/cffi.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/cffi.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/cffi@1.15.1": {
+          "package_url": "pkg:pypi/cffi@1.15.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/greenlet.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/greenlet.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/greenlet.egg-info",
+      "resolved": {
+        "pkg:pypi/greenlet@0.4.13": {
+          "package_url": "pkg:pypi/greenlet@0.4.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/hpy-0.0.4.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/hpy-0.0.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/hpy-0.0.4.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/hpy@0.0.4.dev179+g9b5d200": {
+          "package_url": "pkg:pypi/hpy@0.0.4.dev179+g9b5d200",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/readline.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/readline.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.10-7.3.12/lib/pypy3.10/readline.egg-info",
+      "resolved": {
+        "pkg:pypi/readline@6.2.4.1": {
+          "package_url": "pkg:pypi/readline@6.2.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/cffi.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/cffi.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/cffi.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/cffi@1.15.0": {
+          "package_url": "pkg:pypi/cffi@1.15.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/hpy.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/hpy.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:2456076ec50106851d7d24f72c4e19b3bb14ad1a23c47ef26fa2d3531cd2c672"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/pypy3.7-7.3.9/lib_pypy/hpy.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/hpy@0.0.3": {
+          "package_url": "pkg:pypi/hpy@0.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/argcomplete@3.1.1": {
+          "package_url": "pkg:pypi/argcomplete@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/certifi@2023.5.7": {
+          "package_url": "pkg:pypi/certifi@2023.5.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/click@8.1.4": {
+          "package_url": "pkg:pypi/click@8.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pipx@1.2.0": {
+          "package_url": "pkg:pypi/pipx@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/userpath@1.8.0": {
+          "package_url": "pkg:pypi/userpath@1.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/pip-9.0.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/pip-9.0.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/pip-9.0.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pip@9.0.3": {
+          "package_url": "pkg:pypi/pip@9.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/python_dateutil-2.6.1-py3.6.egg-info/PKG-INFO": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/python_dateutil-2.6.1-py3.6.egg-info/PKG-INFO"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/python_dateutil-2.6.1-py3.6.egg-info/PKG-INFO",
+      "resolved": {
+        "pkg:pypi/python-dateutil@2.6.1": {
+          "package_url": "pkg:pypi/python-dateutil@2.6.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/sepolicy-1.1-py3.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/sepolicy-1.1-py3.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/sepolicy-1.1-py3.6.egg-info",
+      "resolved": {
+        "pkg:pypi/sepolicy@1.1": {
+          "package_url": "pkg:pypi/sepolicy@1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:9755c29446e09b0d836a90e9164d35772d58a2f8a6fbeac973c6559d6a872a01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/setuptools-39.2.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/setuptools@39.2.0": {
+          "package_url": "pkg:pypi/setuptools@39.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/six-1.11.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/six-1.11.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib/python3.6/site-packages/six-1.11.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/six@1.11.0": {
+          "package_url": "pkg:pypi/six@1.11.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/libpython3.6m.so.1.0": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/libpython3.6m.so.1.0"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/libpython3.6m.so.1.0",
+      "resolved": {
+        "pkg:generic/python@3.6.8": {
+          "package_url": "pkg:generic/python@3.6.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/dbus_python-1.2.4-py3.6.egg-info/PKG-INFO": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/dbus_python-1.2.4-py3.6.egg-info/PKG-INFO"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/dbus_python-1.2.4-py3.6.egg-info/PKG-INFO",
+      "resolved": {
+        "pkg:pypi/dbus-python@1.2.4": {
+          "package_url": "pkg:pypi/dbus-python@1.2.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/gpg-1.13.1-py3.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/gpg-1.13.1-py3.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:9755c29446e09b0d836a90e9164d35772d58a2f8a6fbeac973c6559d6a872a01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/gpg-1.13.1-py3.6.egg-info",
+      "resolved": {
+        "pkg:pypi/gpg@1.13.1": {
+          "package_url": "pkg:pypi/gpg@1.13.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/libcomps-0.1.18-py3.6.egg-info/PKG-INFO": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/libcomps-0.1.18-py3.6.egg-info/PKG-INFO"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:9755c29446e09b0d836a90e9164d35772d58a2f8a6fbeac973c6559d6a872a01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/libcomps-0.1.18-py3.6.egg-info/PKG-INFO",
+      "resolved": {
+        "pkg:pypi/libcomps@0.1.18": {
+          "package_url": "pkg:pypi/libcomps@0.1.18",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/rpm-4.14.3-py3.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/rpm-4.14.3-py3.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:9755c29446e09b0d836a90e9164d35772d58a2f8a6fbeac973c6559d6a872a01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/rpm-4.14.3-py3.6.egg-info",
+      "resolved": {
+        "pkg:pypi/rpm@4.14.3": {
+          "package_url": "pkg:pypi/rpm@4.14.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/selinux-2.9-py3.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/selinux-2.9-py3.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/selinux-2.9-py3.6.egg-info",
+      "resolved": {
+        "pkg:pypi/selinux@2.9": {
+          "package_url": "pkg:pypi/selinux@2.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/setools-4.3.0-py3.6.egg-info/PKG-INFO": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/setools-4.3.0-py3.6.egg-info/PKG-INFO"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/setools-4.3.0-py3.6.egg-info/PKG-INFO",
+      "resolved": {
+        "pkg:pypi/setools@4.3.0": {
+          "package_url": "pkg:pypi/setools@4.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/systemd_python-234-py3.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/systemd_python-234-py3.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:377fe234eda8291808ebe946becd564453ac8c40d1c3a84d37a32aabc8240e01"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/usr/lib64/python3.6/site-packages/systemd_python-234-py3.6.egg-info",
+      "resolved": {
+        "pkg:pypi/systemd-python@234": {
+          "package_url": "pkg:pypi/systemd-python@234",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux_2_28_x86_64:/var/lib/rpm/Packages": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux_2_28_x86_64:/var/lib/rpm/Packages"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b3065110e5f6f4aa928a31c9e8078e9865051e8c79d49d1b6f765b67e90ef1df"
+      },
+      "name": "quay.io/pypa/manylinux_2_28_x86_64:/var/lib/rpm/Packages",
+      "resolved": {
+        "pkg:rpm/almalinux/acl@2.2.53-1.el8": {
+          "package_url": "pkg:rpm/almalinux/acl@2.2.53-1.el8?arch=x86_64&upstream=acl-2.2.53-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/almalinux-release@8.8-1.el8": {
+          "package_url": "pkg:rpm/almalinux/almalinux-release@8.8-1.el8?arch=x86_64&upstream=almalinux-release-8.8-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/audit-libs@3.0.7-4.el8": {
+          "package_url": "pkg:rpm/almalinux/audit-libs@3.0.7-4.el8?arch=x86_64&upstream=audit-3.0.7-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/autoconf@2.69-29.el8": {
+          "package_url": "pkg:rpm/almalinux/autoconf@2.69-29.el8?arch=noarch&upstream=autoconf-2.69-29.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/automake@1.16.1-7.el8": {
+          "package_url": "pkg:rpm/almalinux/automake@1.16.1-7.el8?arch=noarch&upstream=automake-1.16.1-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/basesystem@11-5.el8": {
+          "package_url": "pkg:rpm/almalinux/basesystem@11-5.el8?arch=noarch&upstream=basesystem-11-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/bash@4.4.20-4.el8_6": {
+          "package_url": "pkg:rpm/almalinux/bash@4.4.20-4.el8_6?arch=x86_64&upstream=bash-4.4.20-4.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/binutils@2.30-119.el8": {
+          "package_url": "pkg:rpm/almalinux/binutils@2.30-119.el8?arch=x86_64&upstream=binutils-2.30-119.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/bison@3.0.4-10.el8": {
+          "package_url": "pkg:rpm/almalinux/bison@3.0.4-10.el8?arch=x86_64&upstream=bison-3.0.4-10.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/brotli@1.0.6-3.el8": {
+          "package_url": "pkg:rpm/almalinux/brotli@1.0.6-3.el8?arch=x86_64&upstream=brotli-1.0.6-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/bzip2-libs@1.0.6-26.el8": {
+          "package_url": "pkg:rpm/almalinux/bzip2-libs@1.0.6-26.el8?arch=x86_64&upstream=bzip2-1.0.6-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/bzip2@1.0.6-26.el8": {
+          "package_url": "pkg:rpm/almalinux/bzip2@1.0.6-26.el8?arch=x86_64&upstream=bzip2-1.0.6-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/ca-certificates@2022.2.54-80.2.el8_6": {
+          "package_url": "pkg:rpm/almalinux/ca-certificates@2022.2.54-80.2.el8_6?arch=noarch&upstream=ca-certificates-2022.2.54-80.2.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/checkpolicy@2.9-1.el8": {
+          "package_url": "pkg:rpm/almalinux/checkpolicy@2.9-1.el8?arch=x86_64&upstream=checkpolicy-2.9-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/chkconfig@1.19.1-1.el8": {
+          "package_url": "pkg:rpm/almalinux/chkconfig@1.19.1-1.el8?arch=x86_64&upstream=chkconfig-1.19.1-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/coreutils-single@8.30-15.el8": {
+          "package_url": "pkg:rpm/almalinux/coreutils-single@8.30-15.el8?arch=x86_64&upstream=coreutils-8.30-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/cracklib-dicts@2.9.6-15.el8": {
+          "package_url": "pkg:rpm/almalinux/cracklib-dicts@2.9.6-15.el8?arch=x86_64&upstream=cracklib-2.9.6-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/cracklib@2.9.6-15.el8": {
+          "package_url": "pkg:rpm/almalinux/cracklib@2.9.6-15.el8?arch=x86_64&upstream=cracklib-2.9.6-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/crypto-policies@20221215-1.gitece0092.el8": {
+          "package_url": "pkg:rpm/almalinux/crypto-policies@20221215-1.gitece0092.el8?arch=noarch&upstream=crypto-policies-20221215-1.gitece0092.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/cryptsetup-libs@2.3.7-5.el8": {
+          "package_url": "pkg:rpm/almalinux/cryptsetup-libs@2.3.7-5.el8?arch=x86_64&upstream=cryptsetup-2.3.7-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/curl@7.61.1-30.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/curl@7.61.1-30.el8_8.2?arch=x86_64&upstream=curl-7.61.1-30.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/cyrus-sasl-lib@2.1.27-6.el8_5": {
+          "package_url": "pkg:rpm/almalinux/cyrus-sasl-lib@2.1.27-6.el8_5?arch=x86_64&upstream=cyrus-sasl-2.1.27-6.el8_5.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus-common@1.12.8-24.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus-common@1.12.8-24.el8?arch=noarch&epoch=1&upstream=dbus-1.12.8-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus-daemon@1.12.8-24.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus-daemon@1.12.8-24.el8?arch=x86_64&epoch=1&upstream=dbus-1.12.8-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus-glib@0.110-2.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus-glib@0.110-2.el8?arch=x86_64&upstream=dbus-glib-0.110-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus-libs@1.12.8-24.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus-libs@1.12.8-24.el8?arch=x86_64&epoch=1&upstream=dbus-1.12.8-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus-tools@1.12.8-24.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus-tools@1.12.8-24.el8?arch=x86_64&epoch=1&upstream=dbus-1.12.8-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dbus@1.12.8-24.el8": {
+          "package_url": "pkg:rpm/almalinux/dbus@1.12.8-24.el8?arch=x86_64&epoch=1&upstream=dbus-1.12.8-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dejavu-fonts-common@2.35-7.el8": {
+          "package_url": "pkg:rpm/almalinux/dejavu-fonts-common@2.35-7.el8?arch=noarch&upstream=dejavu-fonts-2.35-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dejavu-sans-fonts@2.35-7.el8": {
+          "package_url": "pkg:rpm/almalinux/dejavu-sans-fonts@2.35-7.el8?arch=noarch&upstream=dejavu-fonts-2.35-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/device-mapper-libs@1.02.181-9.el8": {
+          "package_url": "pkg:rpm/almalinux/device-mapper-libs@1.02.181-9.el8?arch=x86_64&epoch=8&upstream=lvm2-2.03.14-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/device-mapper@1.02.181-9.el8": {
+          "package_url": "pkg:rpm/almalinux/device-mapper@1.02.181-9.el8?arch=x86_64&epoch=8&upstream=lvm2-2.03.14-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/diffutils@3.6-6.el8": {
+          "package_url": "pkg:rpm/almalinux/diffutils@3.6-6.el8?arch=x86_64&upstream=diffutils-3.6-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dnf-data@4.7.0-16.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/dnf-data@4.7.0-16.el8_8.alma?arch=noarch&upstream=dnf-4.7.0-16.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dnf-plugins-core@4.0.21-19.el8_8": {
+          "package_url": "pkg:rpm/almalinux/dnf-plugins-core@4.0.21-19.el8_8?arch=noarch&upstream=dnf-plugins-core-4.0.21-19.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/dnf@4.7.0-16.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/dnf@4.7.0-16.el8_8.alma?arch=noarch&upstream=dnf-4.7.0-16.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/elfutils-debuginfod-client@0.188-3.el8": {
+          "package_url": "pkg:rpm/almalinux/elfutils-debuginfod-client@0.188-3.el8?arch=x86_64&upstream=elfutils-0.188-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/elfutils-default-yama-scope@0.188-3.el8": {
+          "package_url": "pkg:rpm/almalinux/elfutils-default-yama-scope@0.188-3.el8?arch=noarch&upstream=elfutils-0.188-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/elfutils-libelf@0.188-3.el8": {
+          "package_url": "pkg:rpm/almalinux/elfutils-libelf@0.188-3.el8?arch=x86_64&upstream=elfutils-0.188-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/elfutils-libs@0.188-3.el8": {
+          "package_url": "pkg:rpm/almalinux/elfutils-libs@0.188-3.el8?arch=x86_64&upstream=elfutils-0.188-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/emacs-filesystem@26.1-10.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/emacs-filesystem@26.1-10.el8_8.2?arch=noarch&epoch=1&upstream=emacs-26.1-10.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/environment-modules@4.5.2-3.el8": {
+          "package_url": "pkg:rpm/almalinux/environment-modules@4.5.2-3.el8?arch=x86_64&upstream=environment-modules-4.5.2-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/expat-devel@2.2.5-11.el8": {
+          "package_url": "pkg:rpm/almalinux/expat-devel@2.2.5-11.el8?arch=x86_64&upstream=expat-2.2.5-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/expat@2.2.5-11.el8": {
+          "package_url": "pkg:rpm/almalinux/expat@2.2.5-11.el8?arch=x86_64&upstream=expat-2.2.5-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/file-libs@5.33-24.el8": {
+          "package_url": "pkg:rpm/almalinux/file-libs@5.33-24.el8?arch=x86_64&upstream=file-5.33-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/file@5.33-24.el8": {
+          "package_url": "pkg:rpm/almalinux/file@5.33-24.el8?arch=x86_64&upstream=file-5.33-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/filesystem@3.8-6.el8": {
+          "package_url": "pkg:rpm/almalinux/filesystem@3.8-6.el8?arch=x86_64&upstream=filesystem-3.8-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/findutils@4.6.0-20.el8": {
+          "package_url": "pkg:rpm/almalinux/findutils@4.6.0-20.el8?arch=x86_64&epoch=1&upstream=findutils-4.6.0-20.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/fontconfig@2.13.1-4.el8": {
+          "package_url": "pkg:rpm/almalinux/fontconfig@2.13.1-4.el8?arch=x86_64&upstream=fontconfig-2.13.1-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/fontpackages-filesystem@1.44-22.el8": {
+          "package_url": "pkg:rpm/almalinux/fontpackages-filesystem@1.44-22.el8?arch=noarch&upstream=fontpackages-1.44-22.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/freetype@2.9.1-9.el8": {
+          "package_url": "pkg:rpm/almalinux/freetype@2.9.1-9.el8?arch=x86_64&upstream=freetype-2.9.1-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gawk@4.2.1-4.el8": {
+          "package_url": "pkg:rpm/almalinux/gawk@4.2.1-4.el8?arch=x86_64&upstream=gawk-4.2.1-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-binutils-gold@2.38-17.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-binutils-gold@2.38-17.el8?arch=x86_64&upstream=gcc-toolset-12-binutils-2.38-17.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-binutils@2.38-17.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-binutils@2.38-17.el8?arch=x86_64&upstream=gcc-toolset-12-binutils-2.38-17.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-gcc-c++@12.2.1-7.4.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-gcc-c++@12.2.1-7.4.el8?arch=x86_64&upstream=gcc-toolset-12-gcc-12.2.1-7.4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-gcc-gfortran@12.2.1-7.4.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-gcc-gfortran@12.2.1-7.4.el8?arch=x86_64&upstream=gcc-toolset-12-gcc-12.2.1-7.4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-gcc@12.2.1-7.4.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-gcc@12.2.1-7.4.el8?arch=x86_64&upstream=gcc-toolset-12-gcc-12.2.1-7.4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-libquadmath-devel@12.2.1-7.4.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-libquadmath-devel@12.2.1-7.4.el8?arch=x86_64&upstream=gcc-toolset-12-gcc-12.2.1-7.4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-libstdc++-devel@12.2.1-7.4.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-libstdc++-devel@12.2.1-7.4.el8?arch=x86_64&upstream=gcc-toolset-12-gcc-12.2.1-7.4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gcc-toolset-12-runtime@12.0-6.el8": {
+          "package_url": "pkg:rpm/almalinux/gcc-toolset-12-runtime@12.0-6.el8?arch=x86_64&upstream=gcc-toolset-12-12.0-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gdbm-libs@1.18-2.el8": {
+          "package_url": "pkg:rpm/almalinux/gdbm-libs@1.18-2.el8?arch=x86_64&epoch=1&upstream=gdbm-1.18-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gdbm@1.18-2.el8": {
+          "package_url": "pkg:rpm/almalinux/gdbm@1.18-2.el8?arch=x86_64&epoch=1&upstream=gdbm-1.18-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glib2-devel@2.56.4-161.el8": {
+          "package_url": "pkg:rpm/almalinux/glib2-devel@2.56.4-161.el8?arch=x86_64&upstream=glib2-2.56.4-161.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glib2@2.56.4-161.el8": {
+          "package_url": "pkg:rpm/almalinux/glib2@2.56.4-161.el8?arch=x86_64&upstream=glib2-2.56.4-161.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-common@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-common@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-devel@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-devel@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-headers@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-headers@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-langpack-en@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-langpack-en@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-locale-source@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-locale-source@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc-minimal-langpack@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc-minimal-langpack@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/glibc@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/glibc@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gmp@6.1.2-10.el8": {
+          "package_url": "pkg:rpm/almalinux/gmp@6.1.2-10.el8?arch=x86_64&epoch=1&upstream=gmp-6.1.2-10.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gnupg2@2.2.20-3.el8_6": {
+          "package_url": "pkg:rpm/almalinux/gnupg2@2.2.20-3.el8_6?arch=x86_64&upstream=gnupg2-2.2.20-3.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gnutls@3.6.16-6.el8_7": {
+          "package_url": "pkg:rpm/almalinux/gnutls@3.6.16-6.el8_7?arch=x86_64&upstream=gnutls-3.6.16-6.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gpg-pubkey@3abb34f8-5ffd890e": {
+          "package_url": "pkg:rpm/almalinux/gpg-pubkey@3abb34f8-5ffd890e?distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gpgme@1.13.1-11.el8": {
+          "package_url": "pkg:rpm/almalinux/gpgme@1.13.1-11.el8?arch=x86_64&upstream=gpgme-1.13.1-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/grep@3.1-6.el8": {
+          "package_url": "pkg:rpm/almalinux/grep@3.1-6.el8?arch=x86_64&upstream=grep-3.1-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/groff-base@1.22.3-18.el8": {
+          "package_url": "pkg:rpm/almalinux/groff-base@1.22.3-18.el8?arch=x86_64&upstream=groff-1.22.3-18.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/gzip@1.9-13.el8_5": {
+          "package_url": "pkg:rpm/almalinux/gzip@1.9-13.el8_5?arch=x86_64&upstream=gzip-1.9-13.el8_5.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/hardlink@1.3-6.el8": {
+          "package_url": "pkg:rpm/almalinux/hardlink@1.3-6.el8?arch=x86_64&epoch=1&upstream=hardlink-1.3-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/hostname@3.20-6.el8": {
+          "package_url": "pkg:rpm/almalinux/hostname@3.20-6.el8?arch=x86_64&upstream=hostname-3.20-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/hwdata@0.314-8.16.el8": {
+          "package_url": "pkg:rpm/almalinux/hwdata@0.314-8.16.el8?arch=noarch&upstream=hwdata-0.314-8.16.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/ima-evm-utils@1.3.2-12.el8": {
+          "package_url": "pkg:rpm/almalinux/ima-evm-utils@1.3.2-12.el8?arch=x86_64&upstream=ima-evm-utils-1.3.2-12.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/info@6.5-7.el8": {
+          "package_url": "pkg:rpm/almalinux/info@6.5-7.el8?arch=x86_64&upstream=texinfo-6.5-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/iputils@20180629-10.el8": {
+          "package_url": "pkg:rpm/almalinux/iputils@20180629-10.el8?arch=x86_64&upstream=iputils-20180629-10.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/json-c@0.13.1-3.el8": {
+          "package_url": "pkg:rpm/almalinux/json-c@0.13.1-3.el8?arch=x86_64&upstream=json-c-0.13.1-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/kernel-headers@4.18.0-477.13.1.el8_8": {
+          "package_url": "pkg:rpm/almalinux/kernel-headers@4.18.0-477.13.1.el8_8?arch=x86_64&upstream=kernel-4.18.0-477.13.1.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/keyutils-libs@1.5.10-9.el8": {
+          "package_url": "pkg:rpm/almalinux/keyutils-libs@1.5.10-9.el8?arch=x86_64&upstream=keyutils-1.5.10-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/kmod-libs@25-19.el8": {
+          "package_url": "pkg:rpm/almalinux/kmod-libs@25-19.el8?arch=x86_64&upstream=kmod-25-19.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/krb5-libs@1.18.2-25.el8_8": {
+          "package_url": "pkg:rpm/almalinux/krb5-libs@1.18.2-25.el8_8?arch=x86_64&upstream=krb5-1.18.2-25.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/langpacks-en@1.0-12.el8": {
+          "package_url": "pkg:rpm/almalinux/langpacks-en@1.0-12.el8?arch=noarch&upstream=langpacks-1.0-12.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/less@530-1.el8": {
+          "package_url": "pkg:rpm/almalinux/less@530-1.el8?arch=x86_64&upstream=less-530-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libICE-devel@1.0.9-15.el8": {
+          "package_url": "pkg:rpm/almalinux/libICE-devel@1.0.9-15.el8?arch=x86_64&upstream=libICE-1.0.9-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libICE@1.0.9-15.el8": {
+          "package_url": "pkg:rpm/almalinux/libICE@1.0.9-15.el8?arch=x86_64&upstream=libICE-1.0.9-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libSM-devel@1.2.3-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libSM-devel@1.2.3-1.el8?arch=x86_64&upstream=libSM-1.2.3-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libSM@1.2.3-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libSM@1.2.3-1.el8?arch=x86_64&upstream=libSM-1.2.3-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libX11-common@1.6.8-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libX11-common@1.6.8-5.el8?arch=noarch&upstream=libX11-1.6.8-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libX11-devel@1.6.8-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libX11-devel@1.6.8-5.el8?arch=x86_64&upstream=libX11-1.6.8-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libX11-xcb@1.6.8-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libX11-xcb@1.6.8-5.el8?arch=x86_64&upstream=libX11-1.6.8-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libX11@1.6.8-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libX11@1.6.8-5.el8?arch=x86_64&upstream=libX11-1.6.8-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXau-devel@1.0.9-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libXau-devel@1.0.9-3.el8?arch=x86_64&upstream=libXau-1.0.9-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXau@1.0.9-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libXau@1.0.9-3.el8?arch=x86_64&upstream=libXau-1.0.9-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXext-devel@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libXext-devel@1.3.4-1.el8?arch=x86_64&upstream=libXext-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXext@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libXext@1.3.4-1.el8?arch=x86_64&upstream=libXext-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXfixes@5.0.3-7.el8": {
+          "package_url": "pkg:rpm/almalinux/libXfixes@5.0.3-7.el8?arch=x86_64&upstream=libXfixes-5.0.3-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXft@2.3.3-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libXft@2.3.3-1.el8?arch=x86_64&upstream=libXft-2.3.3-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXrender-devel@0.9.10-7.el8": {
+          "package_url": "pkg:rpm/almalinux/libXrender-devel@0.9.10-7.el8?arch=x86_64&upstream=libXrender-0.9.10-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXrender@0.9.10-7.el8": {
+          "package_url": "pkg:rpm/almalinux/libXrender@0.9.10-7.el8?arch=x86_64&upstream=libXrender-0.9.10-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libXxf86vm@1.1.4-9.el8": {
+          "package_url": "pkg:rpm/almalinux/libXxf86vm@1.1.4-9.el8?arch=x86_64&upstream=libXxf86vm-1.1.4-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libacl@2.2.53-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libacl@2.2.53-1.el8?arch=x86_64&upstream=acl-2.2.53-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libarchive@3.3.3-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libarchive@3.3.3-5.el8?arch=x86_64&upstream=libarchive-3.3.3-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libassuan@2.5.1-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libassuan@2.5.1-3.el8?arch=x86_64&upstream=libassuan-2.5.1-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libattr@2.4.48-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libattr@2.4.48-3.el8?arch=x86_64&upstream=attr-2.4.48-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libblkid@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libblkid@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libcap-ng@0.7.11-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libcap-ng@0.7.11-1.el8?arch=x86_64&upstream=libcap-ng-0.7.11-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libcap@2.48-4.el8": {
+          "package_url": "pkg:rpm/almalinux/libcap@2.48-4.el8?arch=x86_64&upstream=libcap-2.48-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libcom_err@1.45.6-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libcom_err@1.45.6-5.el8?arch=x86_64&upstream=e2fsprogs-1.45.6-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libcomps@0.1.18-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libcomps@0.1.18-1.el8?arch=x86_64&upstream=libcomps-0.1.18-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libcurl@7.61.1-30.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/libcurl@7.61.1-30.el8_8.2?arch=x86_64&upstream=curl-7.61.1-30.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libdb-utils@5.3.28-42.el8_4": {
+          "package_url": "pkg:rpm/almalinux/libdb-utils@5.3.28-42.el8_4?arch=x86_64&upstream=libdb-5.3.28-42.el8_4.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libdb@5.3.28-42.el8_4": {
+          "package_url": "pkg:rpm/almalinux/libdb@5.3.28-42.el8_4?arch=x86_64&upstream=libdb-5.3.28-42.el8_4.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libdnf@0.63.0-14.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/libdnf@0.63.0-14.el8_8.alma?arch=x86_64&upstream=libdnf-0.63.0-14.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libdrm-devel@2.4.114-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libdrm-devel@2.4.114-1.el8?arch=x86_64&upstream=libdrm-2.4.114-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libdrm@2.4.114-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libdrm@2.4.114-1.el8?arch=x86_64&upstream=libdrm-2.4.114-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libfdisk@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libfdisk@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libffi@3.1-24.el8": {
+          "package_url": "pkg:rpm/almalinux/libffi@3.1-24.el8?arch=x86_64&upstream=libffi-3.1-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libgcc@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libgcc@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libgcrypt@1.8.5-7.el8_6": {
+          "package_url": "pkg:rpm/almalinux/libgcrypt@1.8.5-7.el8_6?arch=x86_64&upstream=libgcrypt-1.8.5-7.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libgfortran@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libgfortran@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-core-devel@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-core-devel@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-devel@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-devel@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-egl@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-egl@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-gles@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-gles@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-glx@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-glx@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd-opengl@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd-opengl@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libglvnd@1.3.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libglvnd@1.3.4-1.el8?arch=x86_64&epoch=1&upstream=libglvnd-1.3.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libgomp@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libgomp@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libgpg-error@1.31-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libgpg-error@1.31-1.el8?arch=x86_64&upstream=libgpg-error-1.31-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libibverbs@44.0-2.el8.1": {
+          "package_url": "pkg:rpm/almalinux/libibverbs@44.0-2.el8.1?arch=x86_64&upstream=rdma-core-44.0-2.el8.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libidn2@2.2.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libidn2@2.2.0-1.el8?arch=x86_64&upstream=libidn2-2.2.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libidn@1.34-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libidn@1.34-5.el8?arch=x86_64&upstream=libidn-1.34-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libkadm5@1.18.2-25.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libkadm5@1.18.2-25.el8_8?arch=x86_64&upstream=krb5-1.18.2-25.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libksba@1.3.5-9.el8_7": {
+          "package_url": "pkg:rpm/almalinux/libksba@1.3.5-9.el8_7?arch=x86_64&upstream=libksba-1.3.5-9.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libmodulemd@2.13.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libmodulemd@2.13.0-1.el8?arch=x86_64&upstream=libmodulemd-2.13.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libmount@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libmount@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libmpc@1.1.0-9.1.el8": {
+          "package_url": "pkg:rpm/almalinux/libmpc@1.1.0-9.1.el8?arch=x86_64&upstream=libmpc-1.1.0-9.1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libnghttp2@1.33.0-3.el8_2.1": {
+          "package_url": "pkg:rpm/almalinux/libnghttp2@1.33.0-3.el8_2.1?arch=x86_64&upstream=nghttp2-1.33.0-3.el8_2.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libnl3@3.7.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libnl3@3.7.0-1.el8?arch=x86_64&upstream=libnl3-3.7.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libnsl2@1.2.0-2.20180605git4a062cf.el8": {
+          "package_url": "pkg:rpm/almalinux/libnsl2@1.2.0-2.20180605git4a062cf.el8?arch=x86_64&upstream=libnsl2-1.2.0-2.20180605git4a062cf.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libnsl@2.28-225.el8": {
+          "package_url": "pkg:rpm/almalinux/libnsl@2.28-225.el8?arch=x86_64&upstream=glibc-2.28-225.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpcap@1.9.1-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libpcap@1.9.1-5.el8?arch=x86_64&epoch=14&upstream=libpcap-1.9.1-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpciaccess-devel@0.14-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libpciaccess-devel@0.14-1.el8?arch=x86_64&upstream=libpciaccess-0.14-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpciaccess@0.14-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libpciaccess@0.14-1.el8?arch=x86_64&upstream=libpciaccess-0.14-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpipeline@1.5.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/libpipeline@1.5.0-2.el8?arch=x86_64&upstream=libpipeline-1.5.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpkgconf@1.4.2-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libpkgconf@1.4.2-1.el8?arch=x86_64&upstream=pkgconf-1.4.2-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpng@1.6.34-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libpng@1.6.34-5.el8?arch=x86_64&epoch=2&upstream=libpng-1.6.34-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpsl@0.20.2-6.el8": {
+          "package_url": "pkg:rpm/almalinux/libpsl@0.20.2-6.el8?arch=x86_64&upstream=libpsl-0.20.2-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libpwquality@1.4.4-6.el8": {
+          "package_url": "pkg:rpm/almalinux/libpwquality@1.4.4-6.el8?arch=x86_64&upstream=libpwquality-1.4.4-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libquadmath@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libquadmath@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/librepo@1.14.2-4.el8": {
+          "package_url": "pkg:rpm/almalinux/librepo@1.14.2-4.el8?arch=x86_64&upstream=librepo-1.14.2-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libreport-filesystem@2.9.5-15.el8.alma.1": {
+          "package_url": "pkg:rpm/almalinux/libreport-filesystem@2.9.5-15.el8.alma.1?arch=x86_64&upstream=libreport-2.9.5-15.el8.alma.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libseccomp@2.5.2-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libseccomp@2.5.2-1.el8?arch=x86_64&upstream=libseccomp-2.5.2-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libselinux-utils@2.9-8.el8": {
+          "package_url": "pkg:rpm/almalinux/libselinux-utils@2.9-8.el8?arch=x86_64&upstream=libselinux-2.9-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libselinux@2.9-8.el8": {
+          "package_url": "pkg:rpm/almalinux/libselinux@2.9-8.el8?arch=x86_64&upstream=libselinux-2.9-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libsemanage@2.9-9.el8_6": {
+          "package_url": "pkg:rpm/almalinux/libsemanage@2.9-9.el8_6?arch=x86_64&upstream=libsemanage-2.9-9.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libsepol@2.9-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libsepol@2.9-3.el8?arch=x86_64&upstream=libsepol-2.9-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libsigsegv@2.11-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libsigsegv@2.11-5.el8?arch=x86_64&upstream=libsigsegv-2.11-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libsmartcols@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libsmartcols@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libsolv@0.7.20-4.el8_7": {
+          "package_url": "pkg:rpm/almalinux/libsolv@0.7.20-4.el8_7?arch=x86_64&upstream=libsolv-0.7.20-4.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libssh-config@0.9.6-10.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libssh-config@0.9.6-10.el8_8?arch=noarch&upstream=libssh-0.9.6-10.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libssh@0.9.6-10.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libssh@0.9.6-10.el8_8?arch=x86_64&upstream=libssh-0.9.6-10.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libstdc++-devel@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libstdc++-devel@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libstdc++@8.5.0-18.el8.alma": {
+          "package_url": "pkg:rpm/almalinux/libstdc++@8.5.0-18.el8.alma?arch=x86_64&upstream=gcc-8.5.0-18.el8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libtasn1@4.13-4.el8_7": {
+          "package_url": "pkg:rpm/almalinux/libtasn1@4.13-4.el8_7?arch=x86_64&upstream=libtasn1-4.13-4.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libtirpc@1.1.4-8.el8": {
+          "package_url": "pkg:rpm/almalinux/libtirpc@1.1.4-8.el8?arch=x86_64&upstream=libtirpc-1.1.4-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libunistring@0.9.9-3.el8": {
+          "package_url": "pkg:rpm/almalinux/libunistring@0.9.9-3.el8?arch=x86_64&upstream=libunistring-0.9.9-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libusbx@1.0.23-4.el8": {
+          "package_url": "pkg:rpm/almalinux/libusbx@1.0.23-4.el8?arch=x86_64&upstream=libusbx-1.0.23-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libutempter@1.1.6-14.el8": {
+          "package_url": "pkg:rpm/almalinux/libutempter@1.1.6-14.el8?arch=x86_64&upstream=libutempter-1.1.6-14.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libuuid@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/libuuid@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libverto@0.3.2-2.el8": {
+          "package_url": "pkg:rpm/almalinux/libverto@0.3.2-2.el8?arch=x86_64&upstream=libverto-0.3.2-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libwayland-client@1.21.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libwayland-client@1.21.0-1.el8?arch=x86_64&upstream=wayland-1.21.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libwayland-server@1.21.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libwayland-server@1.21.0-1.el8?arch=x86_64&upstream=wayland-1.21.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxcb-devel@1.13.1-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libxcb-devel@1.13.1-1.el8?arch=x86_64&upstream=libxcb-1.13.1-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxcb@1.13.1-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libxcb@1.13.1-1.el8?arch=x86_64&upstream=libxcb-1.13.1-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxcrypt-devel@4.1.1-6.el8": {
+          "package_url": "pkg:rpm/almalinux/libxcrypt-devel@4.1.1-6.el8?arch=x86_64&upstream=libxcrypt-4.1.1-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxcrypt@4.1.1-6.el8": {
+          "package_url": "pkg:rpm/almalinux/libxcrypt@4.1.1-6.el8?arch=x86_64&upstream=libxcrypt-4.1.1-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxkbcommon@0.9.1-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libxkbcommon@0.9.1-1.el8?arch=x86_64&upstream=libxkbcommon-0.9.1-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxml2@2.9.7-16.el8": {
+          "package_url": "pkg:rpm/almalinux/libxml2@2.9.7-16.el8?arch=x86_64&upstream=libxml2-2.9.7-16.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libxshmfence@1.3-2.el8": {
+          "package_url": "pkg:rpm/almalinux/libxshmfence@1.3-2.el8?arch=x86_64&upstream=libxshmfence-1.3-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libyaml@0.1.7-5.el8": {
+          "package_url": "pkg:rpm/almalinux/libyaml@0.1.7-5.el8?arch=x86_64&upstream=libyaml-0.1.7-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/libzstd@1.4.4-1.el8": {
+          "package_url": "pkg:rpm/almalinux/libzstd@1.4.4-1.el8?arch=x86_64&upstream=zstd-1.4.4-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/lua-libs@5.3.4-12.el8": {
+          "package_url": "pkg:rpm/almalinux/lua-libs@5.3.4-12.el8?arch=x86_64&upstream=lua-5.3.4-12.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/lz4-libs@1.8.3-3.el8_4": {
+          "package_url": "pkg:rpm/almalinux/lz4-libs@1.8.3-3.el8_4?arch=x86_64&upstream=lz4-1.8.3-3.el8_4.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/m4@1.4.18-7.el8": {
+          "package_url": "pkg:rpm/almalinux/m4@1.4.18-7.el8?arch=x86_64&upstream=m4-1.4.18-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/make@4.2.1-11.el8": {
+          "package_url": "pkg:rpm/almalinux/make@4.2.1-11.el8?arch=x86_64&epoch=1&upstream=make-4.2.1-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/man-db@2.7.6.1-18.el8": {
+          "package_url": "pkg:rpm/almalinux/man-db@2.7.6.1-18.el8?arch=x86_64&upstream=man-db-2.7.6.1-18.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mesa-libEGL@22.3.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/mesa-libEGL@22.3.0-2.el8?arch=x86_64&upstream=mesa-22.3.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mesa-libGL-devel@22.3.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/mesa-libGL-devel@22.3.0-2.el8?arch=x86_64&upstream=mesa-22.3.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mesa-libGL@22.3.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/mesa-libGL@22.3.0-2.el8?arch=x86_64&upstream=mesa-22.3.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mesa-libgbm@22.3.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/mesa-libgbm@22.3.0-2.el8?arch=x86_64&upstream=mesa-22.3.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mesa-libglapi@22.3.0-2.el8": {
+          "package_url": "pkg:rpm/almalinux/mesa-libglapi@22.3.0-2.el8?arch=x86_64&upstream=mesa-22.3.0-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/mpfr@3.1.6-1.el8": {
+          "package_url": "pkg:rpm/almalinux/mpfr@3.1.6-1.el8?arch=x86_64&upstream=mpfr-3.1.6-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/ncurses-base@6.1-9.20180224.el8": {
+          "package_url": "pkg:rpm/almalinux/ncurses-base@6.1-9.20180224.el8?arch=noarch&upstream=ncurses-6.1-9.20180224.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/ncurses-libs@6.1-9.20180224.el8": {
+          "package_url": "pkg:rpm/almalinux/ncurses-libs@6.1-9.20180224.el8?arch=x86_64&upstream=ncurses-6.1-9.20180224.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/ncurses@6.1-9.20180224.el8": {
+          "package_url": "pkg:rpm/almalinux/ncurses@6.1-9.20180224.el8?arch=x86_64&upstream=ncurses-6.1-9.20180224.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/nettle@3.4.1-7.el8": {
+          "package_url": "pkg:rpm/almalinux/nettle@3.4.1-7.el8?arch=x86_64&upstream=nettle-3.4.1-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/npth@1.5-4.el8": {
+          "package_url": "pkg:rpm/almalinux/npth@1.5-4.el8?arch=x86_64&upstream=npth-1.5-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/openldap@2.4.46-18.el8": {
+          "package_url": "pkg:rpm/almalinux/openldap@2.4.46-18.el8?arch=x86_64&upstream=openldap-2.4.46-18.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/openssl-libs@1.1.1k-9.el8_7": {
+          "package_url": "pkg:rpm/almalinux/openssl-libs@1.1.1k-9.el8_7?arch=x86_64&epoch=1&upstream=openssl-1.1.1k-9.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/openssl@1.1.1k-9.el8_7": {
+          "package_url": "pkg:rpm/almalinux/openssl@1.1.1k-9.el8_7?arch=x86_64&epoch=1&upstream=openssl-1.1.1k-9.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/p11-kit-trust@0.23.22-1.el8": {
+          "package_url": "pkg:rpm/almalinux/p11-kit-trust@0.23.22-1.el8?arch=x86_64&upstream=p11-kit-0.23.22-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/p11-kit@0.23.22-1.el8": {
+          "package_url": "pkg:rpm/almalinux/p11-kit@0.23.22-1.el8?arch=x86_64&upstream=p11-kit-0.23.22-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pam@1.3.1-25.el8": {
+          "package_url": "pkg:rpm/almalinux/pam@1.3.1-25.el8?arch=x86_64&upstream=pam-1.3.1-25.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/patch@2.7.6-11.el8": {
+          "package_url": "pkg:rpm/almalinux/patch@2.7.6-11.el8?arch=x86_64&upstream=patch-2.7.6-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre-cpp@8.42-6.el8": {
+          "package_url": "pkg:rpm/almalinux/pcre-cpp@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre-devel@8.42-6.el8": {
+          "package_url": "pkg:rpm/almalinux/pcre-devel@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre-utf16@8.42-6.el8": {
+          "package_url": "pkg:rpm/almalinux/pcre-utf16@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre-utf32@8.42-6.el8": {
+          "package_url": "pkg:rpm/almalinux/pcre-utf32@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre2@10.32-3.el8_6": {
+          "package_url": "pkg:rpm/almalinux/pcre2@10.32-3.el8_6?arch=x86_64&upstream=pcre2-10.32-3.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pcre@8.42-6.el8": {
+          "package_url": "pkg:rpm/almalinux/pcre@8.42-6.el8?arch=x86_64&upstream=pcre-8.42-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Carp@1.42-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Carp@1.42-396.el8?arch=noarch&upstream=perl-Carp-1.42-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Data-Dumper@2.167-399.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Data-Dumper@2.167-399.el8?arch=x86_64&upstream=perl-Data-Dumper-2.167-399.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Digest-MD5@2.55-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Digest-MD5@2.55-396.el8?arch=x86_64&upstream=perl-Digest-MD5-2.55-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Digest@1.17-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Digest@1.17-395.el8?arch=noarch&upstream=perl-Digest-1.17-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Encode@2.97-3.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Encode@2.97-3.el8?arch=x86_64&epoch=4&upstream=perl-Encode-2.97-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Errno@1.28-422.el8.0.1": {
+          "package_url": "pkg:rpm/almalinux/perl-Errno@1.28-422.el8.0.1?arch=x86_64&epoch=0&upstream=perl-5.26.3-422.el8.0.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Exporter@5.72-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Exporter@5.72-396.el8?arch=noarch&upstream=perl-Exporter-5.72-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-File-Path@2.15-2.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-File-Path@2.15-2.el8?arch=noarch&upstream=perl-File-Path-2.15-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-File-Temp@0.230.600-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-File-Temp@0.230.600-1.el8?arch=noarch&upstream=perl-File-Temp-0.230.600-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Getopt-Long@2.50-4.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Getopt-Long@2.50-4.el8?arch=noarch&epoch=1&upstream=perl-Getopt-Long-2.50-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-HTTP-Tiny@0.074-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-HTTP-Tiny@0.074-1.el8?arch=noarch&upstream=perl-HTTP-Tiny-0.074-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-IO-Socket-IP@0.39-5.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-IO-Socket-IP@0.39-5.el8?arch=noarch&upstream=perl-IO-Socket-IP-0.39-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-IO-Socket-SSL@2.066-4.module_el8.6.0+2811+fe6c84b0": {
+          "package_url": "pkg:rpm/almalinux/perl-IO-Socket-SSL@2.066-4.module_el8.6.0+2811+fe6c84b0?arch=noarch&upstream=perl-IO-Socket-SSL-2.066-4.module_el8.6.0+2811+fe6c84b0.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-IO@1.38-422.el8.0.1": {
+          "package_url": "pkg:rpm/almalinux/perl-IO@1.38-422.el8.0.1?arch=x86_64&epoch=0&upstream=perl-5.26.3-422.el8.0.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-MIME-Base64@3.15-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-MIME-Base64@3.15-396.el8?arch=x86_64&upstream=perl-MIME-Base64-3.15-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Mozilla-CA@20160104-7.module_el8.5.0+2812+ed912d05": {
+          "package_url": "pkg:rpm/almalinux/perl-Mozilla-CA@20160104-7.module_el8.5.0+2812+ed912d05?arch=noarch&upstream=perl-Mozilla-CA-20160104-7.module_el8.5.0+2812+ed912d05.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Net-SSLeay@1.88-2.module_el8.6.0+2811+fe6c84b0": {
+          "package_url": "pkg:rpm/almalinux/perl-Net-SSLeay@1.88-2.module_el8.6.0+2811+fe6c84b0?arch=x86_64&upstream=perl-Net-SSLeay-1.88-2.module_el8.6.0+2811+fe6c84b0.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-PathTools@3.74-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-PathTools@3.74-1.el8?arch=x86_64&upstream=perl-PathTools-3.74-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Pod-Escapes@1.07-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Pod-Escapes@1.07-395.el8?arch=noarch&epoch=1&upstream=perl-Pod-Escapes-1.07-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Pod-Perldoc@3.28-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Pod-Perldoc@3.28-396.el8?arch=noarch&upstream=perl-Pod-Perldoc-3.28-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Pod-Simple@3.35-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Pod-Simple@3.35-395.el8?arch=noarch&epoch=1&upstream=perl-Pod-Simple-3.35-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Pod-Usage@1.69-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Pod-Usage@1.69-395.el8?arch=noarch&epoch=4&upstream=perl-Pod-Usage-1.69-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Scalar-List-Utils@1.49-2.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Scalar-List-Utils@1.49-2.el8?arch=x86_64&epoch=3&upstream=perl-Scalar-List-Utils-1.49-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Socket@2.027-3.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Socket@2.027-3.el8?arch=x86_64&epoch=4&upstream=perl-Socket-2.027-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Storable@3.11-3.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Storable@3.11-3.el8?arch=x86_64&epoch=1&upstream=perl-Storable-3.11-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Term-ANSIColor@4.06-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Term-ANSIColor@4.06-396.el8?arch=noarch&upstream=perl-Term-ANSIColor-4.06-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Term-Cap@1.17-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Term-Cap@1.17-395.el8?arch=noarch&upstream=perl-Term-Cap-1.17-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Text-ParseWords@3.30-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Text-ParseWords@3.30-395.el8?arch=noarch&upstream=perl-Text-ParseWords-3.30-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Text-Tabs+Wrap@2013.0523-395.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Text-Tabs+Wrap@2013.0523-395.el8?arch=noarch&upstream=perl-Text-Tabs+Wrap-2013.0523-395.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Thread-Queue@3.13-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Thread-Queue@3.13-1.el8?arch=noarch&upstream=perl-Thread-Queue-3.13-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Time-Local@1.280-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Time-Local@1.280-1.el8?arch=noarch&epoch=1&upstream=perl-Time-Local-1.280-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-URI@1.73-3.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-URI@1.73-3.el8?arch=noarch&upstream=perl-URI-1.73-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-Unicode-Normalize@1.25-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-Unicode-Normalize@1.25-396.el8?arch=x86_64&upstream=perl-Unicode-Normalize-1.25-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-constant@1.33-396.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-constant@1.33-396.el8?arch=noarch&upstream=perl-constant-1.33-396.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-interpreter@5.26.3-422.el8.0.1": {
+          "package_url": "pkg:rpm/almalinux/perl-interpreter@5.26.3-422.el8.0.1?arch=x86_64&epoch=4&upstream=perl-5.26.3-422.el8.0.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-libnet@3.11-3.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-libnet@3.11-3.el8?arch=noarch&upstream=perl-libnet-3.11-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-libs@5.26.3-422.el8.0.1": {
+          "package_url": "pkg:rpm/almalinux/perl-libs@5.26.3-422.el8.0.1?arch=x86_64&epoch=4&upstream=perl-5.26.3-422.el8.0.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-macros@5.26.3-422.el8.0.1": {
+          "package_url": "pkg:rpm/almalinux/perl-macros@5.26.3-422.el8.0.1?arch=x86_64&epoch=4&upstream=perl-5.26.3-422.el8.0.1.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-parent@0.237-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-parent@0.237-1.el8?arch=noarch&epoch=1&upstream=perl-parent-0.237-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-podlators@4.11-1.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-podlators@4.11-1.el8?arch=noarch&upstream=perl-podlators-4.11-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-threads-shared@1.58-2.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-threads-shared@1.58-2.el8?arch=x86_64&upstream=perl-threads-shared-1.58-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/perl-threads@2.21-2.el8": {
+          "package_url": "pkg:rpm/almalinux/perl-threads@2.21-2.el8?arch=x86_64&epoch=1&upstream=perl-threads-2.21-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pkgconf-m4@1.4.2-1.el8": {
+          "package_url": "pkg:rpm/almalinux/pkgconf-m4@1.4.2-1.el8?arch=noarch&upstream=pkgconf-1.4.2-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pkgconf-pkg-config@1.4.2-1.el8": {
+          "package_url": "pkg:rpm/almalinux/pkgconf-pkg-config@1.4.2-1.el8?arch=x86_64&upstream=pkgconf-1.4.2-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/pkgconf@1.4.2-1.el8": {
+          "package_url": "pkg:rpm/almalinux/pkgconf@1.4.2-1.el8?arch=x86_64&upstream=pkgconf-1.4.2-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/platform-python-pip@9.0.3-22.el8": {
+          "dependencies": [
+            "pkg:pypi/pip@9.0.3"
+          ],
+          "package_url": "pkg:rpm/almalinux/platform-python-pip@9.0.3-22.el8?arch=noarch&upstream=python-pip-9.0.3-22.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/platform-python-setuptools@39.2.0-7.el8": {
+          "dependencies": [
+            "pkg:pypi/setuptools@39.2.0"
+          ],
+          "package_url": "pkg:rpm/almalinux/platform-python-setuptools@39.2.0-7.el8?arch=noarch&upstream=python-setuptools-39.2.0-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/platform-python@3.6.8-51.el8_8.1.alma": {
+          "package_url": "pkg:rpm/almalinux/platform-python@3.6.8-51.el8_8.1.alma?arch=x86_64&upstream=python3-3.6.8-51.el8_8.1.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/policycoreutils-python-utils@2.9-24.el8": {
+          "package_url": "pkg:rpm/almalinux/policycoreutils-python-utils@2.9-24.el8?arch=noarch&upstream=policycoreutils-2.9-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/policycoreutils@2.9-24.el8": {
+          "package_url": "pkg:rpm/almalinux/policycoreutils@2.9-24.el8?arch=x86_64&upstream=policycoreutils-2.9-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/popt@1.18-1.el8": {
+          "package_url": "pkg:rpm/almalinux/popt@1.18-1.el8?arch=x86_64&upstream=popt-1.18-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/procps-ng@3.3.15-13.el8": {
+          "package_url": "pkg:rpm/almalinux/procps-ng@3.3.15-13.el8?arch=x86_64&upstream=procps-ng-3.3.15-13.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/publicsuffix-list-dafsa@20180723-1.el8": {
+          "package_url": "pkg:rpm/almalinux/publicsuffix-list-dafsa@20180723-1.el8?arch=noarch&upstream=publicsuffix-list-20180723-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-audit@3.0.7-4.el8": {
+          "package_url": "pkg:rpm/almalinux/python3-audit@3.0.7-4.el8?arch=x86_64&upstream=audit-3.0.7-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-dateutil@2.6.1-6.el8": {
+          "dependencies": [
+            "pkg:pypi/python-dateutil@2.6.1"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-dateutil@2.6.1-6.el8?arch=noarch&epoch=1&upstream=python-dateutil-2.6.1-6.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-dbus@1.2.4-15.el8": {
+          "dependencies": [
+            "pkg:pypi/dbus-python@1.2.4"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-dbus@1.2.4-15.el8?arch=x86_64&upstream=dbus-python-1.2.4-15.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-dnf-plugins-core@4.0.21-19.el8_8": {
+          "package_url": "pkg:rpm/almalinux/python3-dnf-plugins-core@4.0.21-19.el8_8?arch=noarch&upstream=dnf-plugins-core-4.0.21-19.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-dnf@4.7.0-16.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/python3-dnf@4.7.0-16.el8_8.alma?arch=noarch&upstream=dnf-4.7.0-16.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-gpg@1.13.1-11.el8": {
+          "dependencies": [
+            "pkg:pypi/gpg@1.13.1"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-gpg@1.13.1-11.el8?arch=x86_64&upstream=gpgme-1.13.1-11.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-hawkey@0.63.0-14.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/python3-hawkey@0.63.0-14.el8_8.alma?arch=x86_64&upstream=libdnf-0.63.0-14.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-libcomps@0.1.18-1.el8": {
+          "dependencies": [
+            "pkg:pypi/libcomps@0.1.18"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-libcomps@0.1.18-1.el8?arch=x86_64&upstream=libcomps-0.1.18-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-libdnf@0.63.0-14.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/python3-libdnf@0.63.0-14.el8_8.alma?arch=x86_64&upstream=libdnf-0.63.0-14.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-libs@3.6.8-51.el8_8.1.alma": {
+          "dependencies": [
+            "pkg:generic/python@3.6.8"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-libs@3.6.8-51.el8_8.1.alma?arch=x86_64&upstream=python3-3.6.8-51.el8_8.1.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-libselinux@2.9-8.el8": {
+          "dependencies": [
+            "pkg:pypi/selinux@2.9"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-libselinux@2.9-8.el8?arch=x86_64&upstream=libselinux-2.9-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-libsemanage@2.9-9.el8_6": {
+          "package_url": "pkg:rpm/almalinux/python3-libsemanage@2.9-9.el8_6?arch=x86_64&upstream=libsemanage-2.9-9.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-pip-wheel@9.0.3-22.el8": {
+          "package_url": "pkg:rpm/almalinux/python3-pip-wheel@9.0.3-22.el8?arch=noarch&upstream=python-pip-9.0.3-22.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-policycoreutils@2.9-24.el8": {
+          "dependencies": [
+            "pkg:pypi/sepolicy@1.1"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-policycoreutils@2.9-24.el8?arch=noarch&upstream=policycoreutils-2.9-24.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-rpm@4.14.3-26.el8": {
+          "dependencies": [
+            "pkg:pypi/rpm@4.14.3"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-rpm@4.14.3-26.el8?arch=x86_64&upstream=rpm-4.14.3-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-setools@4.3.0-3.el8": {
+          "dependencies": [
+            "pkg:pypi/setools@4.3.0"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-setools@4.3.0-3.el8?arch=x86_64&upstream=setools-4.3.0-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-setuptools-wheel@39.2.0-7.el8": {
+          "package_url": "pkg:rpm/almalinux/python3-setuptools-wheel@39.2.0-7.el8?arch=noarch&upstream=python-setuptools-39.2.0-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-six@1.11.0-8.el8": {
+          "dependencies": [
+            "pkg:pypi/six@1.11.0"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-six@1.11.0-8.el8?arch=noarch&upstream=python-six-1.11.0-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/python3-systemd@234-8.el8": {
+          "dependencies": [
+            "pkg:pypi/systemd-python@234"
+          ],
+          "package_url": "pkg:rpm/almalinux/python3-systemd@234-8.el8?arch=x86_64&upstream=python-systemd-234-8.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/readline@7.0-10.el8": {
+          "package_url": "pkg:rpm/almalinux/readline@7.0-10.el8?arch=x86_64&upstream=readline-7.0-10.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/rootfiles@8.1-22.el8": {
+          "package_url": "pkg:rpm/almalinux/rootfiles@8.1-22.el8?arch=noarch&upstream=rootfiles-8.1-22.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/rpm-build-libs@4.14.3-26.el8": {
+          "package_url": "pkg:rpm/almalinux/rpm-build-libs@4.14.3-26.el8?arch=x86_64&upstream=rpm-4.14.3-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/rpm-libs@4.14.3-26.el8": {
+          "package_url": "pkg:rpm/almalinux/rpm-libs@4.14.3-26.el8?arch=x86_64&upstream=rpm-4.14.3-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/rpm@4.14.3-26.el8": {
+          "package_url": "pkg:rpm/almalinux/rpm@4.14.3-26.el8?arch=x86_64&upstream=rpm-4.14.3-26.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/scl-utils@2.0.2-16.el8": {
+          "package_url": "pkg:rpm/almalinux/scl-utils@2.0.2-16.el8?arch=x86_64&epoch=1&upstream=scl-utils-2.0.2-16.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/sed@4.5-5.el8": {
+          "package_url": "pkg:rpm/almalinux/sed@4.5-5.el8?arch=x86_64&upstream=sed-4.5-5.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/setup@2.12.2-9.el8": {
+          "package_url": "pkg:rpm/almalinux/setup@2.12.2-9.el8?arch=noarch&upstream=setup-2.12.2-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/shadow-utils@4.6-17.el8": {
+          "package_url": "pkg:rpm/almalinux/shadow-utils@4.6-17.el8?arch=x86_64&epoch=2&upstream=shadow-utils-4.6-17.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/sqlite-libs@3.26.0-18.el8_8": {
+          "package_url": "pkg:rpm/almalinux/sqlite-libs@3.26.0-18.el8_8?arch=x86_64&upstream=sqlite-3.26.0-18.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/systemd-libs@239-74.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/systemd-libs@239-74.el8_8.2?arch=x86_64&upstream=systemd-239-74.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/systemd-pam@239-74.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/systemd-pam@239-74.el8_8.2?arch=x86_64&upstream=systemd-239-74.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/systemd@239-74.el8_8.2": {
+          "package_url": "pkg:rpm/almalinux/systemd@239-74.el8_8.2?arch=x86_64&upstream=systemd-239-74.el8_8.2.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/tar@1.30-9.el8": {
+          "package_url": "pkg:rpm/almalinux/tar@1.30-9.el8?arch=x86_64&epoch=2&upstream=tar-1.30-9.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/tcl@8.6.8-2.el8": {
+          "package_url": "pkg:rpm/almalinux/tcl@8.6.8-2.el8?arch=x86_64&epoch=1&upstream=tcl-8.6.8-2.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/tk@8.6.8-1.el8": {
+          "package_url": "pkg:rpm/almalinux/tk@8.6.8-1.el8?arch=x86_64&epoch=1&upstream=tk-8.6.8-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/tpm2-tss@2.3.2-4.el8": {
+          "package_url": "pkg:rpm/almalinux/tpm2-tss@2.3.2-4.el8?arch=x86_64&upstream=tpm2-tss-2.3.2-4.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/tzdata@2023c-1.el8": {
+          "package_url": "pkg:rpm/almalinux/tzdata@2023c-1.el8?arch=noarch&upstream=tzdata-2023c-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/unzip@6.0-46.el8": {
+          "package_url": "pkg:rpm/almalinux/unzip@6.0-46.el8?arch=x86_64&upstream=unzip-6.0-46.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/util-linux@2.32.1-42.el8_8": {
+          "package_url": "pkg:rpm/almalinux/util-linux@2.32.1-42.el8_8?arch=x86_64&upstream=util-linux-2.32.1-42.el8_8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/uuid@1.6.2-43.el8": {
+          "package_url": "pkg:rpm/almalinux/uuid@1.6.2-43.el8?arch=x86_64&upstream=uuid-1.6.2-43.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/valgrind-devel@3.19.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/valgrind-devel@3.19.0-1.el8?arch=x86_64&epoch=1&upstream=valgrind-3.19.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/valgrind@3.19.0-1.el8": {
+          "package_url": "pkg:rpm/almalinux/valgrind@3.19.0-1.el8?arch=x86_64&epoch=1&upstream=valgrind-3.19.0-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4": {
+          "package_url": "pkg:rpm/almalinux/vim-minimal@8.0.1763-19.el8_6.4?arch=x86_64&epoch=2&upstream=vim-8.0.1763-19.el8_6.4.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/which@2.21-18.el8": {
+          "package_url": "pkg:rpm/almalinux/which@2.21-18.el8?arch=x86_64&upstream=which-2.21-18.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/xkeyboard-config@2.28-1.el8": {
+          "package_url": "pkg:rpm/almalinux/xkeyboard-config@2.28-1.el8?arch=noarch&upstream=xkeyboard-config-2.28-1.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/xorg-x11-proto-devel@2020.1-3.el8": {
+          "package_url": "pkg:rpm/almalinux/xorg-x11-proto-devel@2020.1-3.el8?arch=noarch&upstream=xorg-x11-proto-devel-2020.1-3.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/xz-libs@5.2.4-4.el8_6": {
+          "package_url": "pkg:rpm/almalinux/xz-libs@5.2.4-4.el8_6?arch=x86_64&upstream=xz-5.2.4-4.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/xz@5.2.4-4.el8_6": {
+          "package_url": "pkg:rpm/almalinux/xz@5.2.4-4.el8_6?arch=x86_64&upstream=xz-5.2.4-4.el8_6.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/yasm@1.3.0-7.el8": {
+          "package_url": "pkg:rpm/almalinux/yasm@1.3.0-7.el8?arch=x86_64&upstream=yasm-1.3.0-7.el8.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/yum@4.7.0-16.el8_8.alma": {
+          "package_url": "pkg:rpm/almalinux/yum@4.7.0-16.el8_8.alma?arch=noarch&upstream=dnf-4.7.0-16.el8_8.alma.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/zlib-devel@1.2.11-21.el8_7": {
+          "package_url": "pkg:rpm/almalinux/zlib-devel@1.2.11-21.el8_7?arch=x86_64&upstream=zlib-1.2.11-21.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/almalinux/zlib@1.2.11-21.el8_7": {
+          "package_url": "pkg:rpm/almalinux/zlib@1.2.11-21.el8_7?arch=x86_64&upstream=zlib-1.2.11-21.el8_7.src.rpm&distro=almalinux-8.8",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/almalinux@8.8?like=rhel,centos,fedora"
+  },
+  "version": 0
+}

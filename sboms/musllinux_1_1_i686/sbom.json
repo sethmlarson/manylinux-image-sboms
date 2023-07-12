@@ -1,0 +1,2315 @@
+{
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft"
+  },
+  "job": {},
+  "manifests": {
+    "quay.io/pypa/musllinux_1_1_i686:/bin/busybox": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/bin/busybox"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:276ca09b86f2f48afb57fe84d7587606b3a2da3c3ceb4aaeba316a38e7497b66"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/bin/busybox",
+      "resolved": {
+        "": {
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/lib/apk/db/installed": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/lib/apk/db/installed"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/lib/apk/db/installed",
+      "resolved": {
+        "pkg:apk/alpine/alpine-baselayout@3.2.0-r7": {
+          "package_url": "pkg:apk/alpine/alpine-baselayout@3.2.0-r7?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/alpine-keys@2.4-r0": {
+          "package_url": "pkg:apk/alpine/alpine-keys@2.4-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/apk-tools@2.10.8-r1": {
+          "package_url": "pkg:apk/alpine/apk-tools@2.10.8-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/autoconf@2.69-r2": {
+          "package_url": "pkg:apk/alpine/autoconf@2.69-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/automake@1.16.2-r0": {
+          "package_url": "pkg:apk/alpine/automake@1.16.2-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/bash@5.0.17-r0": {
+          "package_url": "pkg:apk/alpine/bash@5.0.17-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/binutils@2.34-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/binutils@2.34-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/bison@3.6.2-r0": {
+          "package_url": "pkg:apk/alpine/bison@3.6.2-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/blkid@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/blkid@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/brotli-libs@1.0.9-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/freetype@2.10.4-r2"
+          ],
+          "package_url": "pkg:apk/alpine/brotli-libs@1.0.9-r1?arch=x86&upstream=brotli&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/busybox@1.31.1-r22": {
+          "dependencies": [
+            "pkg:apk/alpine/alpine-baselayout@3.2.0-r7",
+            "pkg:apk/alpine/bash@5.0.17-r0",
+            "pkg:apk/alpine/ca-certificates@20220614-r0",
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/docbook-xml@4.5-r6",
+            "pkg:apk/alpine/docbook-xsl@1.79.2-r2",
+            "pkg:apk/alpine/fontconfig@2.13.1-r2",
+            ""
+          ],
+          "package_url": "pkg:apk/alpine/busybox@1.31.1-r22?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/bzip2-dev@1.0.8-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/bzip2-dev@1.0.8-r1?arch=x86&upstream=bzip2&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/bzip2@1.0.8-r1": {
+          "package_url": "pkg:apk/alpine/bzip2@1.0.8-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ca-certificates-bundle@20220614-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libtls-standalone@2.9.1-r1"
+          ],
+          "package_url": "pkg:apk/alpine/ca-certificates-bundle@20220614-r0?arch=x86&upstream=ca-certificates&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ca-certificates@20220614-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@7.79.1-r1",
+            "pkg:apk/alpine/curl@7.79.1-r1"
+          ],
+          "package_url": "pkg:apk/alpine/ca-certificates@20220614-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/cfdisk@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/cfdisk@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/curl@7.79.1-r1": {
+          "package_url": "pkg:apk/alpine/curl@7.79.1-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/db@5.3.28-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libsasl@2.1.28-r0"
+          ],
+          "package_url": "pkg:apk/alpine/db@5.3.28-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/diffutils@3.7-r0": {
+          "package_url": "pkg:apk/alpine/diffutils@3.7-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/docbook-xml@4.5-r6": {
+          "dependencies": [
+            "pkg:apk/alpine/docbook-xsl@1.79.2-r2",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/docbook-xml@4.5-r6?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/docbook-xsl@1.79.2-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/docbook-xsl@1.79.2-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/expat-dev@2.2.10-r4": {
+          "package_url": "pkg:apk/alpine/expat-dev@2.2.10-r4?arch=x86&upstream=expat&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/expat@2.2.10-r4": {
+          "dependencies": [
+            "pkg:apk/alpine/expat-dev@2.2.10-r4",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/mesa-gbm@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0",
+            "pkg:apk/alpine/fontconfig@2.13.1-r2"
+          ],
+          "package_url": "pkg:apk/alpine/expat@2.2.10-r4?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/file@5.38-r0": {
+          "package_url": "pkg:apk/alpine/file@5.38-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/findmnt@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/findmnt@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/fontconfig@2.13.1-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/libxft@2.3.3-r0",
+            "pkg:apk/alpine/tk@8.6.10-r1"
+          ],
+          "package_url": "pkg:apk/alpine/fontconfig@2.13.1-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/freetype@2.10.4-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/fontconfig@2.13.1-r2",
+            "pkg:apk/alpine/libxft@2.3.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/freetype@2.10.4-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/g++@9.3.0-r2": {
+          "package_url": "pkg:apk/alpine/g++@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gcc@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/gcc@9.3.0-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gdbm@1.13-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/python3@3.8.10-r0"
+          ],
+          "package_url": "pkg:apk/alpine/gdbm@1.13-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gettext-asprintf@0.20.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gettext-dev@0.20.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/gettext-asprintf@0.20.2-r0?arch=x86&upstream=gettext&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gettext-dev@0.20.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/gettext-dev@0.20.2-r0?arch=x86&upstream=gettext&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gettext-libs@0.20.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gettext@0.20.2-r0",
+            "pkg:apk/alpine/gettext-dev@0.20.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/gettext-libs@0.20.2-r0?arch=x86&upstream=gettext&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gettext@0.20.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gettext-dev@0.20.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/gettext@0.20.2-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gfortran@9.3.0-r2": {
+          "package_url": "pkg:apk/alpine/gfortran@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/glib-dev@2.64.6-r0": {
+          "package_url": "pkg:apk/alpine/glib-dev@2.64.6-r0?arch=x86&upstream=glib&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/glib@2.64.6-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libsecret@0.20.3-r0",
+            "pkg:apk/alpine/libsecret@0.20.3-r0",
+            "pkg:apk/alpine/libsecret@0.20.3-r0",
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/glib@2.64.6-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gmp@6.2.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/nettle@3.5.1-r2",
+            "pkg:apk/alpine/gnutls@3.6.15-r1",
+            "pkg:apk/alpine/isl@0.18-r0",
+            "pkg:apk/alpine/mpfr4@4.0.2-r4",
+            "pkg:apk/alpine/mpc1@1.1.0-r1",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/gmp@6.2.1-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gnupg@2.2.23-r1": {
+          "package_url": "pkg:apk/alpine/gnupg@2.2.23-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/gnutls@3.6.15-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/gnutls@3.6.15-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/hexdump@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/hexdump@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/isl@0.18-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/isl@0.18-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/keyutils-libs@1.6.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0"
+          ],
+          "package_url": "pkg:apk/alpine/keyutils-libs@1.6.1-r1?arch=x86&upstream=keyutils&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/krb5-conf@1.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0"
+          ],
+          "package_url": "pkg:apk/alpine/krb5-conf@1.0-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/krb5-libs@1.18.5-r0": {
+          "package_url": "pkg:apk/alpine/krb5-libs@1.18.5-r0?arch=x86&upstream=krb5&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libacl@2.2.53-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/tar@1.32-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libacl@2.2.53-r0?arch=x86&upstream=acl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libassuan@2.5.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libassuan@2.5.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libatomic@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libatomic@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libblkid@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libmount@2.37.4-r0",
+            "pkg:apk/alpine/blkid@2.37.4-r0",
+            "pkg:apk/alpine/findmnt@2.37.4-r0",
+            "pkg:apk/alpine/lsblk@2.37.4-r0",
+            "pkg:apk/alpine/libfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libblkid@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libbsd@0.10.0-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxdmcp@1.1.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libbsd@0.10.0-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libbz2@1.0.8-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/perl@5.30.3-r0",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/bzip2-dev@1.0.8-r1",
+            "pkg:apk/alpine/freetype@2.10.4-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libbz2@1.0.8-r1?arch=x86&upstream=bzip2&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libc-dev@0.7.2-r3": {
+          "dependencies": [
+            "pkg:apk/alpine/g++@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libc-dev@0.7.2-r3?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libc-utils@0.7.2-r3": {
+          "package_url": "pkg:apk/alpine/libc-utils@0.7.2-r3?arch=x86&upstream=libc-dev&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libcap-ng@0.7.10-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/setpriv@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libcap-ng@0.7.10-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libcap@2.27-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pinentry@1.1.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libcap@2.27-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libcom_err@1.45.6-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libcom_err@1.45.6-r0?arch=x86&upstream=e2fsprogs&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libcrypto1.1@1.1.1o-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libtls-standalone@2.9.1-r1",
+            "pkg:apk/alpine/apk-tools@2.10.8-r1",
+            "pkg:apk/alpine/ca-certificates@20220614-r0",
+            "pkg:apk/alpine/libldap@2.4.58-r0",
+            "pkg:apk/alpine/libcurl@7.79.1-r1",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0",
+            "pkg:apk/alpine/openssl@1.1.1o-r0",
+            "pkg:apk/alpine/libssl1.1@1.1.1o-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libcrypto1.1@1.1.1o-r0?arch=x86&upstream=openssl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libcurl@7.79.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/curl@7.79.1-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libcurl@7.79.1-r1?arch=x86&upstream=curl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libdrm-dev@2.4.102-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libdrm-dev@2.4.102-r0?arch=x86&upstream=libdrm&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libdrm@2.4.102-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libdrm-dev@2.4.102-r0",
+            "pkg:apk/alpine/mesa-gbm@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libdrm@2.4.102-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libfdisk@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/sfdisk@2.37.4-r0",
+            "pkg:apk/alpine/cfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libfdisk@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libffi-dev@3.3-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libffi-dev@3.3-r2?arch=x86&upstream=libffi&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libffi@3.3-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/p11-kit@0.23.22-r0",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/libffi-dev@3.3-r2",
+            "pkg:apk/alpine/wayland-libs-server@1.18.0-r4",
+            "pkg:apk/alpine/wayland-libs-client@1.18.0-r4",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libffi@3.3-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgcc@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/libstdc++@9.3.0-r2",
+            "pkg:apk/alpine/binutils@2.34-r2",
+            "pkg:apk/alpine/libgphobos@9.3.0-r2",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/libgfortran@9.3.0-r2",
+            "pkg:apk/alpine/libpcrecpp@8.44-r0",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libgcc@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgcrypt@1.8.8-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libsecret@0.20.3-r0",
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/libxslt@1.1.35-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libgcrypt@1.8.8-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgfortran@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gfortran@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libgfortran@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgomp@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/gettext@0.20.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libgomp@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgpg-error@1.37-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libassuan@2.5.3-r0",
+            "pkg:apk/alpine/libgcrypt@1.8.8-r1",
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/libksba@1.4.0-r0",
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libgpg-error@1.37-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libgphobos@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libgphobos@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libice-dev@1.0.10-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libsm-dev@1.2.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libice-dev@1.0.10-r0?arch=x86&upstream=libice&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libice@1.0.10-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libice-dev@1.0.10-r0",
+            "pkg:apk/alpine/libsm@1.2.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libice@1.0.10-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libidn2@2.3.0-r0": {
+          "package_url": "pkg:apk/alpine/libidn2@2.3.0-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libintl@0.20.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/gettext-libs@0.20.2-r0",
+            "pkg:apk/alpine/gettext@0.20.2-r0",
+            "pkg:apk/alpine/gettext-dev@0.20.2-r0",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libintl@0.20.2-r0?arch=x86&upstream=gettext&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libksba@1.4.0-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libksba@1.4.0-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libldap@2.4.58-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libldap@2.4.58-r0?arch=x86&upstream=openldap&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libmagic@5.38-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/file@5.38-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libmagic@5.38-r0?arch=x86&upstream=file&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libmount@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/findmnt@2.37.4-r0",
+            "pkg:apk/alpine/lsblk@2.37.4-r0",
+            "pkg:apk/alpine/cfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libmount@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libpciaccess@0.16-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libdrm@2.4.102-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libpciaccess@0.16-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libpcre16@8.44-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pcre-dev@8.44-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libpcre16@8.44-r0?arch=x86&upstream=pcre&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libpcre32@8.44-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pcre-dev@8.44-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libpcre32@8.44-r0?arch=x86&upstream=pcre&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libpcrecpp@8.44-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pcre-dev@8.44-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libpcrecpp@8.44-r0?arch=x86&upstream=pcre&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libpng@1.6.37-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/freetype@2.10.4-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libpng@1.6.37-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libquadmath@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/libgfortran@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libquadmath@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libsasl@2.1.28-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libldap@2.4.58-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libsasl@2.1.28-r0?arch=x86&upstream=cyrus-sasl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libsecret@0.20.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/pinentry@1.1.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libsecret@0.20.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libsm-dev@1.2.3-r0": {
+          "package_url": "pkg:apk/alpine/libsm-dev@1.2.3-r0?arch=x86&upstream=libsm&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libsm@1.2.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libsm-dev@1.2.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libsm@1.2.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libsmartcols@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/findmnt@2.37.4-r0",
+            "pkg:apk/alpine/lsblk@2.37.4-r0",
+            "pkg:apk/alpine/sfdisk@2.37.4-r0",
+            "pkg:apk/alpine/cfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libsmartcols@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libssl1.1@1.1.1o-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libtls-standalone@2.9.1-r1",
+            "pkg:apk/alpine/apk-tools@2.10.8-r1",
+            "pkg:apk/alpine/libldap@2.4.58-r0",
+            "pkg:apk/alpine/libcurl@7.79.1-r1",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0",
+            "pkg:apk/alpine/openssl@1.1.1o-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libssl1.1@1.1.1o-r0?arch=x86&upstream=openssl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libstdc++@9.3.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/binutils@2.34-r2",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gettext-asprintf@0.20.2-r0",
+            "pkg:apk/alpine/libpcrecpp@8.44-r0",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libstdc++@9.3.0-r2?arch=x86&upstream=gcc&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libtasn1@4.16.0-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/gnutls@3.6.15-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libtasn1@4.16.0-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libtls-standalone@2.9.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/ssl_client@1.31.1-r22"
+          ],
+          "package_url": "pkg:apk/alpine/libtls-standalone@2.9.1-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libunistring@0.9.10-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gnutls@3.6.15-r1",
+            "pkg:apk/alpine/gettext-libs@0.20.2-r0",
+            "pkg:apk/alpine/gettext@0.20.2-r0",
+            "pkg:apk/alpine/libidn2@2.3.0-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libunistring@0.9.10-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libuuid@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0",
+            "pkg:apk/alpine/libsm@1.2.3-r0",
+            "pkg:apk/alpine/fontconfig@2.13.1-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libuuid@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libverto@0.3.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libverto@0.3.1-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libx11-dev@1.6.12-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libxext-dev@1.3.4-r0",
+            "pkg:apk/alpine/libxrender-dev@0.9.10-r3",
+            "pkg:apk/alpine/libxfixes-dev@5.0.3-r2",
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libx11-dev@1.6.12-r1?arch=x86&upstream=libx11&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libx11@1.6.12-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libxext@1.3.4-r0",
+            "pkg:apk/alpine/libxrender@0.9.10-r3",
+            "pkg:apk/alpine/libxdamage@1.1.5-r0",
+            "pkg:apk/alpine/libxfixes@5.0.3-r2",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/libxxf86vm@1.1.4-r2",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/libxft@2.3.3-r0",
+            "pkg:apk/alpine/tk@8.6.10-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libx11@1.6.12-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxau-dev@1.0.9-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxcb-dev@1.14-r1",
+            "pkg:apk/alpine/libxcb-dev@1.14-r1",
+            "pkg:apk/alpine/libxext-dev@1.3.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxau-dev@1.0.9-r0?arch=x86&upstream=libxau&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxau@1.0.9-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxau-dev@1.0.9-r0",
+            "pkg:apk/alpine/libxcb@1.14-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libxau@1.0.9-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxcb-dev@1.14-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxcb-dev@1.14-r1?arch=x86&upstream=libxcb&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxcb@1.14-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libxcb-dev@1.14-r1",
+            "pkg:apk/alpine/libx11@1.6.12-r1",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxcb@1.14-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxdamage-dev@1.1.5-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxdamage-dev@1.1.5-r0?arch=x86&upstream=libxdamage&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxdamage@1.1.5-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxdamage@1.1.5-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxdmcp-dev@1.1.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxcb-dev@1.14-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libxdmcp-dev@1.1.3-r0?arch=x86&upstream=libxdmcp&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxdmcp@1.1.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxcb@1.14-r1",
+            "pkg:apk/alpine/libxdmcp-dev@1.1.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxdmcp@1.1.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxext-dev@1.3.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxext-dev@1.3.4-r0?arch=x86&upstream=libxext&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxext@1.3.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxext-dev@1.3.4-r0",
+            "pkg:apk/alpine/libxxf86vm@1.1.4-r2",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxext@1.3.4-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxfixes-dev@5.0.3-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxfixes-dev@5.0.3-r2?arch=x86&upstream=libxfixes&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxfixes@5.0.3-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/libxfixes-dev@5.0.3-r2",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxfixes@5.0.3-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxft@2.3.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/tk@8.6.10-r1"
+          ],
+          "package_url": "pkg:apk/alpine/libxft@2.3.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxml2-utils@2.9.14-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/docbook-xml@4.5-r6",
+            "pkg:apk/alpine/docbook-xsl@1.79.2-r2",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxml2-utils@2.9.14-r0?arch=x86&upstream=libxml2&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxml2@2.9.14-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gettext@0.20.2-r0",
+            "pkg:apk/alpine/libxml2-utils@2.9.14-r0",
+            "pkg:apk/alpine/libxslt@1.1.35-r0",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libxml2@2.9.14-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxrender-dev@0.9.10-r3": {
+          "package_url": "pkg:apk/alpine/libxrender-dev@0.9.10-r3?arch=x86&upstream=libxrender&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxrender@0.9.10-r3": {
+          "dependencies": [
+            "pkg:apk/alpine/libxrender-dev@0.9.10-r3",
+            "pkg:apk/alpine/libxft@2.3.3-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxrender@0.9.10-r3?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxshmfence-dev@1.3-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxshmfence-dev@1.3-r1?arch=x86&upstream=libxshmfence&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxshmfence@1.3-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libxshmfence-dev@1.3-r1",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxshmfence@1.3-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxslt@1.1.35-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/docbook-xsl@1.79.2-r2",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxslt@1.1.35-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2?arch=x86&upstream=libxxf86vm&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/libxxf86vm@1.1.4-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2"
+          ],
+          "package_url": "pkg:apk/alpine/libxxf86vm@1.1.4-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/linux-headers@5.4.5-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libffi-dev@3.3-r2",
+            "pkg:apk/alpine/libdrm-dev@2.4.102-r0",
+            "pkg:apk/alpine/libxshmfence-dev@1.3-r1"
+          ],
+          "package_url": "pkg:apk/alpine/linux-headers@5.4.5-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/llvm10-libs@10.0.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/llvm10-libs@10.0.0-r2?arch=x86&upstream=llvm10&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/lsblk@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/lsblk@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/m4@1.4.18-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/autoconf@2.69-r2",
+            "pkg:apk/alpine/bison@3.6.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/m4@1.4.18-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/make@4.3-r0": {
+          "package_url": "pkg:apk/alpine/make@4.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mcookie@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mcookie@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-dev@20.0.7-r0": {
+          "package_url": "pkg:apk/alpine/mesa-dev@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-egl@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-egl@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-gbm@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-gbm@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-gl@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-gl@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-glapi@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gles@20.0.7-r0",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-glapi@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-gles@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-gles@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-osmesa@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-osmesa@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa-xatracker@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa-xatracker@20.0.7-r0?arch=x86&upstream=mesa&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mesa@20.0.7-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-gbm@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/mesa-gles@20.0.7-r0",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/mesa@20.0.7-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mpc1@1.1.0-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/mpc1@1.1.0-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/mpfr4@4.0.2-r4": {
+          "dependencies": [
+            "pkg:apk/alpine/mpc1@1.1.0-r1",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2"
+          ],
+          "package_url": "pkg:apk/alpine/mpfr4@4.0.2-r4?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/musl-dev@1.1.24-r10": {
+          "dependencies": [
+            "pkg:apk/alpine/libc-dev@0.7.2-r3"
+          ],
+          "package_url": "pkg:apk/alpine/musl-dev@1.1.24-r10?arch=x86&upstream=musl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/musl-utils@1.1.24-r10": {
+          "dependencies": [
+            "pkg:apk/alpine/libc-utils@0.7.2-r3"
+          ],
+          "package_url": "pkg:apk/alpine/musl-utils@1.1.24-r10?arch=x86&upstream=musl&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/musl@1.1.24-r10": {
+          "dependencies": [
+            "pkg:apk/alpine/busybox@1.31.1-r22",
+            "pkg:apk/alpine/alpine-baselayout@3.2.0-r7",
+            "pkg:apk/alpine/libtls-standalone@2.9.1-r1",
+            "pkg:apk/alpine/ssl_client@1.31.1-r22",
+            "pkg:apk/alpine/apk-tools@2.10.8-r1",
+            "pkg:apk/alpine/scanelf@1.2.6-r0",
+            "pkg:apk/alpine/musl-utils@1.1.24-r10",
+            "pkg:apk/alpine/ncurses-libs@6.2_p20200523-r1",
+            "pkg:apk/alpine/readline@8.0.4-r0",
+            "pkg:apk/alpine/bash@5.0.17-r0",
+            "pkg:apk/alpine/ca-certificates@20220614-r0",
+            "pkg:apk/alpine/libgpg-error@1.37-r0",
+            "pkg:apk/alpine/libassuan@2.5.3-r0",
+            "pkg:apk/alpine/libcap@2.27-r0",
+            "pkg:apk/alpine/libffi@3.3-r2",
+            "pkg:apk/alpine/libintl@0.20.2-r0",
+            "pkg:apk/alpine/libblkid@2.37.4-r0",
+            "pkg:apk/alpine/libmount@2.37.4-r0",
+            "pkg:apk/alpine/pcre@8.44-r0",
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/libgcrypt@1.8.8-r1",
+            "pkg:apk/alpine/libsecret@0.20.3-r0",
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/libbz2@1.0.8-r1",
+            "pkg:apk/alpine/gmp@6.2.1-r1",
+            "pkg:apk/alpine/nettle@3.5.1-r2",
+            "pkg:apk/alpine/p11-kit@0.23.22-r0",
+            "pkg:apk/alpine/libtasn1@4.16.0-r1",
+            "pkg:apk/alpine/libunistring@0.9.10-r0",
+            "pkg:apk/alpine/gnutls@3.6.15-r1",
+            "pkg:apk/alpine/libksba@1.4.0-r0",
+            "pkg:apk/alpine/db@5.3.28-r1",
+            "pkg:apk/alpine/libsasl@2.1.28-r0",
+            "pkg:apk/alpine/libldap@2.4.58-r0",
+            "pkg:apk/alpine/npth@1.6-r0",
+            "pkg:apk/alpine/sqlite-libs@3.32.1-r1",
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/zlib@1.2.12-r3",
+            "pkg:apk/alpine/m4@1.4.18-r1",
+            "pkg:apk/alpine/perl@5.30.3-r0",
+            "pkg:apk/alpine/libgcc@9.3.0-r2",
+            "pkg:apk/alpine/libstdc++@9.3.0-r2",
+            "pkg:apk/alpine/binutils@2.34-r2",
+            "pkg:apk/alpine/bison@3.6.2-r0",
+            "pkg:apk/alpine/bzip2@1.0.8-r1",
+            "pkg:apk/alpine/nghttp2-libs@1.41.0-r0",
+            "pkg:apk/alpine/libcurl@7.79.1-r1",
+            "pkg:apk/alpine/curl@7.79.1-r1",
+            "pkg:apk/alpine/diffutils@3.7-r0",
+            "pkg:apk/alpine/expat@2.2.10-r4",
+            "pkg:apk/alpine/pkgconf@1.7.2-r0",
+            "pkg:apk/alpine/libmagic@5.38-r0",
+            "pkg:apk/alpine/file@5.38-r0",
+            "pkg:apk/alpine/isl@0.18-r0",
+            "pkg:apk/alpine/libgomp@9.3.0-r2",
+            "pkg:apk/alpine/libatomic@9.3.0-r2",
+            "pkg:apk/alpine/libgphobos@9.3.0-r2",
+            "pkg:apk/alpine/mpfr4@4.0.2-r4",
+            "pkg:apk/alpine/mpc1@1.1.0-r1",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/musl-dev@1.1.24-r10",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gdbm@1.13-r1",
+            "pkg:apk/alpine/libquadmath@9.3.0-r2",
+            "pkg:apk/alpine/libgfortran@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2",
+            "pkg:apk/alpine/xz-libs@5.2.5-r1",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/gettext-asprintf@0.20.2-r0",
+            "pkg:apk/alpine/gettext-libs@0.20.2-r0",
+            "pkg:apk/alpine/libxml2@2.9.14-r0",
+            "pkg:apk/alpine/gettext@0.20.2-r0",
+            "pkg:apk/alpine/libxml2-utils@2.9.14-r0",
+            "pkg:apk/alpine/libxslt@1.1.35-r0",
+            "pkg:apk/alpine/libpcre16@8.44-r0",
+            "pkg:apk/alpine/libpcre32@8.44-r0",
+            "pkg:apk/alpine/libpcrecpp@8.44-r0",
+            "pkg:apk/alpine/blkid@2.37.4-r0",
+            "pkg:apk/alpine/libcap-ng@0.7.10-r1",
+            "pkg:apk/alpine/setpriv@2.37.4-r0",
+            "pkg:apk/alpine/libsmartcols@2.37.4-r0",
+            "pkg:apk/alpine/findmnt@2.37.4-r0",
+            "pkg:apk/alpine/mcookie@2.37.4-r0",
+            "pkg:apk/alpine/hexdump@2.37.4-r0",
+            "pkg:apk/alpine/lsblk@2.37.4-r0",
+            "pkg:apk/alpine/libuuid@2.37.4-r0",
+            "pkg:apk/alpine/libfdisk@2.37.4-r0",
+            "pkg:apk/alpine/sfdisk@2.37.4-r0",
+            "pkg:apk/alpine/cfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:apk/alpine/keyutils-libs@1.6.1-r1",
+            "pkg:apk/alpine/libcom_err@1.45.6-r0",
+            "pkg:apk/alpine/libverto@0.3.1-r1",
+            "pkg:apk/alpine/krb5-libs@1.18.5-r0",
+            "pkg:apk/alpine/libice@1.0.10-r0",
+            "pkg:apk/alpine/libidn2@2.3.0-r0",
+            "pkg:apk/alpine/libsm@1.2.3-r0",
+            "pkg:apk/alpine/libxau@1.0.9-r0",
+            "pkg:apk/alpine/libbsd@0.10.0-r0",
+            "pkg:apk/alpine/libbsd@0.10.0-r0",
+            "pkg:apk/alpine/libxdmcp@1.1.3-r0",
+            "pkg:apk/alpine/libxcb@1.14-r1",
+            "pkg:apk/alpine/libx11@1.6.12-r1",
+            "pkg:apk/alpine/libxext@1.3.4-r0",
+            "pkg:apk/alpine/libxrender@0.9.10-r3",
+            "pkg:apk/alpine/make@4.3-r0",
+            "pkg:apk/alpine/libpciaccess@0.16-r0",
+            "pkg:apk/alpine/libdrm@2.4.102-r0",
+            "pkg:apk/alpine/libxdamage@1.1.5-r0",
+            "pkg:apk/alpine/libxfixes@5.0.3-r2",
+            "pkg:apk/alpine/libxshmfence@1.3-r1",
+            "pkg:apk/alpine/wayland-libs-server@1.18.0-r4",
+            "pkg:apk/alpine/mesa-gbm@20.0.7-r0",
+            "pkg:apk/alpine/mesa-glapi@20.0.7-r0",
+            "pkg:apk/alpine/wayland-libs-client@1.18.0-r4",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0",
+            "pkg:apk/alpine/libxxf86vm@1.1.4-r2",
+            "pkg:apk/alpine/mesa-gl@20.0.7-r0",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2",
+            "pkg:apk/alpine/zstd-libs@1.4.9-r0",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0",
+            "pkg:apk/alpine/ncurses5-libs@5.9-r1",
+            "pkg:apk/alpine/openssl@1.1.1o-r0",
+            "pkg:apk/alpine/patch@2.7.6-r7",
+            "pkg:apk/alpine/libacl@2.2.53-r0",
+            "pkg:apk/alpine/tar@1.32-r2",
+            "pkg:apk/alpine/brotli-libs@1.0.9-r1",
+            "pkg:apk/alpine/libpng@1.6.37-r1",
+            "pkg:apk/alpine/freetype@2.10.4-r2",
+            "pkg:apk/alpine/fontconfig@2.13.1-r2",
+            "pkg:apk/alpine/libxft@2.3.3-r0",
+            "pkg:apk/alpine/tcl@8.6.10-r0",
+            "pkg:apk/alpine/tk@8.6.10-r1",
+            "pkg:apk/alpine/unzip@6.0-r9",
+            "pkg:apk/alpine/xz@5.2.5-r1",
+            "pkg:apk/alpine/libcrypto1.1@1.1.1o-r0",
+            "pkg:apk/alpine/libssl1.1@1.1.1o-r0"
+          ],
+          "package_url": "pkg:apk/alpine/musl@1.1.24-r10?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ncurses-libs@6.2_p20200523-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/readline@8.0.4-r0",
+            "pkg:apk/alpine/pinentry@1.1.0-r2",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/gettext-libs@0.20.2-r0",
+            "pkg:apk/alpine/hexdump@2.37.4-r0",
+            "pkg:apk/alpine/sfdisk@2.37.4-r0",
+            "pkg:apk/alpine/cfdisk@2.37.4-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/ncurses-libs@6.2_p20200523-r1?arch=x86&upstream=ncurses&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ncurses-terminfo-base@6.2_p20200523-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/ncurses-libs@6.2_p20200523-r1",
+            "pkg:apk/alpine/ncurses5-libs@5.9-r1"
+          ],
+          "package_url": "pkg:apk/alpine/ncurses-terminfo-base@6.2_p20200523-r1?arch=x86&upstream=ncurses&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ncurses5-libs@5.9-r1": {
+          "package_url": "pkg:apk/alpine/ncurses5-libs@5.9-r1?arch=x86&upstream=ncurses5&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nettle@3.5.1-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gnutls@3.6.15-r1",
+            "pkg:apk/alpine/gnutls@3.6.15-r1"
+          ],
+          "package_url": "pkg:apk/alpine/nettle@3.5.1-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/nghttp2-libs@1.41.0-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libcurl@7.79.1-r1"
+          ],
+          "package_url": "pkg:apk/alpine/nghttp2-libs@1.41.0-r0?arch=x86&upstream=nghttp2&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/npth@1.6-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/npth@1.6-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/openssl@1.1.1o-r0": {
+          "package_url": "pkg:apk/alpine/openssl@1.1.1o-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/p11-kit@0.23.22-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/gnutls@3.6.15-r1"
+          ],
+          "package_url": "pkg:apk/alpine/p11-kit@0.23.22-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/patch@2.7.6-r7": {
+          "package_url": "pkg:apk/alpine/patch@2.7.6-r7?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/pcre-dev@8.44-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/pcre-dev@8.44-r0?arch=x86&upstream=pcre&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/pcre@8.44-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/libpcrecpp@8.44-r0",
+            "pkg:apk/alpine/pcre-dev@8.44-r0"
+          ],
+          "package_url": "pkg:apk/alpine/pcre@8.44-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/perl@5.30.3-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/autoconf@2.69-r2",
+            "pkg:apk/alpine/automake@1.16.2-r0"
+          ],
+          "package_url": "pkg:apk/alpine/perl@5.30.3-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/pinentry@1.1.0-r2": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1"
+          ],
+          "package_url": "pkg:apk/alpine/pinentry@1.1.0-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/pkgconf@1.7.2-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/expat-dev@2.2.10-r4",
+            "pkg:apk/alpine/libffi-dev@3.3-r2",
+            "pkg:apk/alpine/pcre-dev@8.44-r0",
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0",
+            "pkg:apk/alpine/zlib-dev@1.2.12-r3",
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:apk/alpine/xorgproto@2020.1-r0",
+            "pkg:apk/alpine/libice-dev@1.0.10-r0",
+            "pkg:apk/alpine/libsm-dev@1.2.3-r0",
+            "pkg:apk/alpine/libxau-dev@1.0.9-r0",
+            "pkg:apk/alpine/xcb-proto@1.14-r0",
+            "pkg:apk/alpine/libxdmcp-dev@1.1.3-r0",
+            "pkg:apk/alpine/libxcb-dev@1.14-r1",
+            "pkg:apk/alpine/xtrans@1.4.0-r1",
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libxext-dev@1.3.4-r0",
+            "pkg:apk/alpine/libxrender-dev@0.9.10-r3",
+            "pkg:apk/alpine/libdrm-dev@2.4.102-r0",
+            "pkg:apk/alpine/libxfixes-dev@5.0.3-r2",
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/libxshmfence-dev@1.3-r1",
+            "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2",
+            "pkg:apk/alpine/mesa-dev@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/pkgconf@1.7.2-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/python3@3.8.10-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0",
+            "pkg:generic/python@3.8.10"
+          ],
+          "package_url": "pkg:apk/alpine/python3@3.8.10-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/readline@8.0.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/bash@5.0.17-r0",
+            "pkg:apk/alpine/python3@3.8.10-r0"
+          ],
+          "package_url": "pkg:apk/alpine/readline@8.0.4-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/scanelf@1.2.6-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/musl-utils@1.1.24-r10"
+          ],
+          "package_url": "pkg:apk/alpine/scanelf@1.2.6-r0?arch=x86&upstream=pax-utils&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/setpriv@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/setpriv@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/sfdisk@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/sfdisk@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/sqlite-libs@3.32.1-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/python3@3.8.10-r0"
+          ],
+          "package_url": "pkg:apk/alpine/sqlite-libs@3.32.1-r1?arch=x86&upstream=sqlite&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/ssl_client@1.31.1-r22": {
+          "package_url": "pkg:apk/alpine/ssl_client@1.31.1-r22?arch=x86&upstream=busybox&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/tar@1.32-r2": {
+          "package_url": "pkg:apk/alpine/tar@1.32-r2?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/tcl@8.6.10-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/tk@8.6.10-r1"
+          ],
+          "package_url": "pkg:apk/alpine/tcl@8.6.10-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/tk@8.6.10-r1": {
+          "package_url": "pkg:apk/alpine/tk@8.6.10-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/unzip@6.0-r9": {
+          "package_url": "pkg:apk/alpine/unzip@6.0-r9?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/util-linux-dev@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/util-linux-dev@2.37.4-r0?arch=x86&upstream=util-linux&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/util-linux@2.37.4-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/util-linux-dev@2.37.4-r0"
+          ],
+          "package_url": "pkg:apk/alpine/util-linux@2.37.4-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/wayland-libs-client@1.18.0-r4": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/wayland-libs-client@1.18.0-r4?arch=x86&upstream=wayland&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/wayland-libs-server@1.18.0-r4": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-gbm@20.0.7-r0",
+            "pkg:apk/alpine/mesa-egl@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/wayland-libs-server@1.18.0-r4?arch=x86&upstream=wayland&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xcb-proto@1.14-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libxcb-dev@1.14-r1"
+          ],
+          "package_url": "pkg:apk/alpine/xcb-proto@1.14-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xorgproto@2020.1-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/libice-dev@1.0.10-r0",
+            "pkg:apk/alpine/libsm-dev@1.2.3-r0",
+            "pkg:apk/alpine/libxau-dev@1.0.9-r0",
+            "pkg:apk/alpine/libxdmcp-dev@1.1.3-r0",
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1",
+            "pkg:apk/alpine/libxext-dev@1.3.4-r0",
+            "pkg:apk/alpine/libxrender-dev@0.9.10-r3",
+            "pkg:apk/alpine/libxrender-dev@0.9.10-r3",
+            "pkg:apk/alpine/libxfixes-dev@5.0.3-r2",
+            "pkg:apk/alpine/libxfixes-dev@5.0.3-r2",
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/libxdamage-dev@1.1.5-r0",
+            "pkg:apk/alpine/libxxf86vm-dev@1.1.4-r2"
+          ],
+          "package_url": "pkg:apk/alpine/xorgproto@2020.1-r0?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xtrans@1.4.0-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/libx11-dev@1.6.12-r1"
+          ],
+          "package_url": "pkg:apk/alpine/xtrans@1.4.0-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xz-libs@5.2.5-r1": {
+          "dependencies": [
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/libxml2@2.9.14-r0",
+            "pkg:apk/alpine/xz@5.2.5-r1"
+          ],
+          "package_url": "pkg:apk/alpine/xz-libs@5.2.5-r1?arch=x86&upstream=xz&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/xz@5.2.5-r1": {
+          "package_url": "pkg:apk/alpine/xz@5.2.5-r1?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/zlib-dev@1.2.12-r3": {
+          "dependencies": [
+            "pkg:apk/alpine/glib-dev@2.64.6-r0"
+          ],
+          "package_url": "pkg:apk/alpine/zlib-dev@1.2.12-r3?arch=x86&upstream=zlib&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/zlib@1.2.12-r3": {
+          "dependencies": [
+            "pkg:apk/alpine/apk-tools@2.10.8-r1",
+            "pkg:apk/alpine/glib@2.64.6-r0",
+            "pkg:apk/alpine/gnupg@2.2.23-r1",
+            "pkg:apk/alpine/perl@5.30.3-r0",
+            "pkg:apk/alpine/binutils@2.34-r2",
+            "pkg:apk/alpine/libcurl@7.79.1-r1",
+            "pkg:apk/alpine/curl@7.79.1-r1",
+            "pkg:apk/alpine/gcc@9.3.0-r2",
+            "pkg:apk/alpine/g++@9.3.0-r2",
+            "pkg:apk/alpine/gfortran@9.3.0-r2",
+            "pkg:apk/alpine/python3@3.8.10-r0",
+            "pkg:apk/alpine/libxml2@2.9.14-r0",
+            "pkg:apk/alpine/util-linux@2.37.4-r0",
+            "pkg:apk/alpine/zlib-dev@1.2.12-r3",
+            "pkg:apk/alpine/llvm10-libs@10.0.0-r2",
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0",
+            "pkg:apk/alpine/libpng@1.6.37-r1",
+            "pkg:apk/alpine/freetype@2.10.4-r2",
+            "pkg:apk/alpine/tcl@8.6.10-r0"
+          ],
+          "package_url": "pkg:apk/alpine/zlib@1.2.12-r3?arch=x86&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:apk/alpine/zstd-libs@1.4.9-r0": {
+          "dependencies": [
+            "pkg:apk/alpine/mesa-osmesa@20.0.7-r0",
+            "pkg:apk/alpine/mesa-xatracker@20.0.7-r0"
+          ],
+          "package_url": "pkg:apk/alpine/zstd-libs@1.4.9-r0?arch=x86&upstream=zstd&distro=alpine-3.12.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/bin/python3.10": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/bin/python3.10"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c595bcefd7084768b5034ce7c20287e6b141346f5a9d4d25ff9ea609c6c0d7fd"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/bin/python3.10",
+      "resolved": {
+        "pkg:generic/python@3.10.12": {
+          "package_url": "pkg:generic/python@3.10.12",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/build-0.10.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/build@0.10.0": {
+          "package_url": "pkg:pypi/build@0.10.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/packaging-23.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/packaging@23.1": {
+          "package_url": "pkg:pypi/packaging@23.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pip-23.1.2.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@23.1.2": {
+          "package_url": "pkg:pypi/pip@23.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/pyproject_hooks-1.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyproject-hooks@1.0.0": {
+          "package_url": "pkg:pypi/pyproject_hooks@1.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/setuptools-68.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/setuptools@68.0.0": {
+          "package_url": "pkg:pypi/setuptools@68.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@2.0.1": {
+          "package_url": "pkg:pypi/tomli@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.10.12/lib/python3.10/site-packages/wheel-0.40.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/wheel@0.40.0": {
+          "package_url": "pkg:pypi/wheel@0.40.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.12.0b3/bin/python3.12": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.12.0b3/bin/python3.12"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:c595bcefd7084768b5034ce7c20287e6b141346f5a9d4d25ff9ea609c6c0d7fd"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.12.0b3/bin/python3.12",
+      "resolved": {
+        "pkg:generic/python@3.12.0b3": {
+          "package_url": "pkg:generic/python@3.12.0b3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/build-0.9.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/build@0.9.0": {
+          "package_url": "pkg:pypi/build@0.9.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.8.3": {
+          "package_url": "pkg:pypi/importlib-metadata@4.8.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/packaging-21.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/packaging@21.3": {
+          "package_url": "pkg:pypi/packaging@21.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pep517-0.13.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pep517@0.13.0": {
+          "package_url": "pkg:pypi/pep517@0.13.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@21.3.1": {
+          "package_url": "pkg:pypi/pip@21.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pyparsing-3.1.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyparsing@3.1.0": {
+          "package_url": "pkg:pypi/pyparsing@3.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/setuptools@59.6.0": {
+          "package_url": "pkg:pypi/setuptools@59.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@1.2.3": {
+          "package_url": "pkg:pypi/tomli@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.1.1": {
+          "package_url": "pkg:pypi/typing_extensions@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/wheel-0.37.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/wheel@0.37.1": {
+          "package_url": "pkg:pypi/wheel@0.37.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/zipp@3.6.0": {
+          "package_url": "pkg:pypi/zipp@3.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/importlib_metadata-6.7.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@6.7.0": {
+          "package_url": "pkg:pypi/importlib-metadata@6.7.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/typing_extensions-4.7.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.7.1": {
+          "package_url": "pkg:pypi/typing_extensions@4.7.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/cpython-3.7.17/lib/python3.7/site-packages/zipp-3.15.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/zipp@3.15.0": {
+          "package_url": "pkg:pypi/zipp@3.15.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/auditwheel-5.4.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/auditwheel@5.4.0": {
+          "package_url": "pkg:pypi/auditwheel@5.4.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/auditwheel/lib/python3.10/site-packages/pyelftools-0.29.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyelftools@0.29": {
+          "package_url": "pkg:pypi/pyelftools@0.29",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/cmake/lib/python3.10/site-packages/cmake-3.26.4.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/cmake@3.26.4": {
+          "package_url": "pkg:pypi/cmake@3.26.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/patchelf/lib/python3.10/site-packages/patchelf-0.17.2.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/patchelf@0.17.2.1": {
+          "package_url": "pkg:pypi/patchelf@0.17.2.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/pipx/venvs/swig/lib/python3.10/site-packages/swig-4.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/swig@4.1.1": {
+          "package_url": "pkg:pypi/swig@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/argcomplete-3.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/argcomplete@3.1.1": {
+          "package_url": "pkg:pypi/argcomplete@3.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/certifi-2023.5.7.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/certifi@2023.5.7": {
+          "package_url": "pkg:pypi/certifi@2023.5.7",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/click-8.1.4.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/click@8.1.4": {
+          "package_url": "pkg:pypi/click@8.1.4",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/pipx-1.2.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pipx@1.2.0": {
+          "package_url": "pkg:pypi/pipx@1.2.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7e7f0617ef7abcb0581785c4ec687e75c6fbc89ddbee73739fd48e8850c54166"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/opt/_internal/tools/lib/python3.10/site-packages/userpath-1.8.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/userpath@1.8.0": {
+          "package_url": "pkg:pypi/userpath@1.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/musllinux_1_1_i686:/usr/bin/python3.8": {
+      "file": {
+        "source_location": "quay.io/pypa/musllinux_1_1_i686:/usr/bin/python3.8"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7d77958d0e37a751532292e5291a902d1f8ae9523c69ea18741a6e8b18a9cbe5"
+      },
+      "name": "quay.io/pypa/musllinux_1_1_i686:/usr/bin/python3.8",
+      "resolved": {
+        "pkg:generic/python@3.8.10": {
+          "package_url": "pkg:generic/python@3.8.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/alpine@3.12.12"
+  },
+  "version": 0
+}

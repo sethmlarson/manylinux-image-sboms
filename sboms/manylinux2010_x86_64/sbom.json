@@ -1,0 +1,1867 @@
+{
+  "detector": {
+    "name": "syft",
+    "url": "https://github.com/anchore/syft"
+  },
+  "job": {},
+  "manifests": {
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/build-0.8.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/build-0.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/build-0.8.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/build@0.8.0": {
+          "package_url": "pkg:pypi/build@0.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/packaging-21.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/packaging-21.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/packaging-21.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/packaging@21.3": {
+          "package_url": "pkg:pypi/packaging@21.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pep517-0.13.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pep517-0.13.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pep517-0.13.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pep517@0.13.0": {
+          "package_url": "pkg:pypi/pep517@0.13.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pip-22.2.2.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pip-22.2.2.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pip-22.2.2.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@22.2.2": {
+          "package_url": "pkg:pypi/pip@22.2.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/pyparsing-3.0.9.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyparsing@3.0.9": {
+          "package_url": "pkg:pypi/pyparsing@3.0.9",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/setuptools-63.4.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/setuptools-63.4.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/setuptools-63.4.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/setuptools@63.4.1": {
+          "package_url": "pkg:pypi/setuptools@63.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/tomli-2.0.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@2.0.1": {
+          "package_url": "pkg:pypi/tomli@2.0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/wheel-0.37.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/wheel-0.37.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.10.6/lib/python3.10/site-packages/wheel-0.37.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/wheel@0.37.1": {
+          "package_url": "pkg:pypi/wheel@0.37.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/importlib_metadata-4.8.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.8.3": {
+          "package_url": "pkg:pypi/importlib-metadata@4.8.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/pip-21.3.1.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/pip@21.3.1": {
+          "package_url": "pkg:pypi/pip@21.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/setuptools-59.6.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/setuptools@59.6.0": {
+          "package_url": "pkg:pypi/setuptools@59.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/tomli-1.2.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/tomli@1.2.3": {
+          "package_url": "pkg:pypi/tomli@1.2.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/typing_extensions-4.1.1.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.1.1": {
+          "package_url": "pkg:pypi/typing_extensions@4.1.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.6.15/lib/python3.6/site-packages/zipp-3.6.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/zipp@3.6.0": {
+          "package_url": "pkg:pypi/zipp@3.6.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/importlib_metadata-4.12.0.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/importlib_metadata-4.12.0.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/importlib_metadata-4.12.0.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/importlib-metadata@4.12.0": {
+          "package_url": "pkg:pypi/importlib-metadata@4.12.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/typing_extensions-4.3.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/typing_extensions-4.3.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/typing_extensions-4.3.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/typing-extensions@4.3.0": {
+          "package_url": "pkg:pypi/typing_extensions@4.3.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/zipp-3.8.1.dist-info/top_level.txt": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/zipp-3.8.1.dist-info/top_level.txt"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/cpython-3.7.13/lib/python3.7/site-packages/zipp-3.8.1.dist-info/top_level.txt",
+      "resolved": {
+        "pkg:pypi/zipp@3.8.1": {
+          "package_url": "pkg:pypi/zipp@3.8.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/auditwheel-5.1.2.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/auditwheel-5.1.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/auditwheel-5.1.2.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/auditwheel@5.1.2": {
+          "package_url": "pkg:pypi/auditwheel@5.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/pyelftools-0.28.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/pyelftools-0.28.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/auditwheel/lib/python3.9/site-packages/pyelftools-0.28.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pyelftools@0.28": {
+          "package_url": "pkg:pypi/pyelftools@0.28",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake-3.23.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake-3.23.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/cmake/lib/python3.9/site-packages/cmake-3.23.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/cmake@3.23.3": {
+          "package_url": "pkg:pypi/cmake@3.23.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.9/site-packages/patchelf-0.15.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.9/site-packages/patchelf-0.15.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/patchelf/lib/python3.9/site-packages/patchelf-0.15.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/patchelf@0.15.0.0": {
+          "package_url": "pkg:pypi/patchelf@0.15.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.9/site-packages/swig-4.0.2.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.9/site-packages/swig-4.0.2.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pipx/venvs/swig/lib/python3.9/site-packages/swig-4.0.2.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/swig@4.0.2": {
+          "package_url": "pkg:pypi/swig@4.0.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/cffi.egg-info/PKG-INFO": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/cffi.egg-info/PKG-INFO"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:49a0f73d2f9d8ed2cb271926953c78b9a4002a496414e9b9e2054bf4144b9055"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/cffi.egg-info/PKG-INFO",
+      "resolved": {
+        "pkg:pypi/cffi@1.14.6": {
+          "package_url": "pkg:pypi/cffi@1.14.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/greenlet.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/greenlet.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:49a0f73d2f9d8ed2cb271926953c78b9a4002a496414e9b9e2054bf4144b9055"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/greenlet.egg-info",
+      "resolved": {
+        "pkg:pypi/greenlet@0.4.13": {
+          "package_url": "pkg:pypi/greenlet@0.4.13",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/hpy.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/hpy.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:49a0f73d2f9d8ed2cb271926953c78b9a4002a496414e9b9e2054bf4144b9055"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/hpy.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/hpy@0.0.3": {
+          "package_url": "pkg:pypi/hpy@0.0.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/readline.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/readline.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:49a0f73d2f9d8ed2cb271926953c78b9a4002a496414e9b9e2054bf4144b9055"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/pypy3.7-7.3.7/lib_pypy/readline.egg-info",
+      "resolved": {
+        "pkg:pypi/readline@6.2.4.1": {
+          "package_url": "pkg:pypi/readline@6.2.4.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/argcomplete-2.0.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/argcomplete-2.0.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/argcomplete-2.0.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/argcomplete@2.0.0": {
+          "package_url": "pkg:pypi/argcomplete@2.0.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/certifi-2022.6.15.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/certifi-2022.6.15.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/certifi-2022.6.15.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/certifi@2022.6.15": {
+          "package_url": "pkg:pypi/certifi@2022.6.15",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/click-8.1.3.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/click@8.1.3": {
+          "package_url": "pkg:pypi/click@8.1.3",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/pipx-1.1.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/pipx-1.1.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/pipx-1.1.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/pipx@1.1.0": {
+          "package_url": "pkg:pypi/pipx@1.1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/userpath-1.8.0.dist-info/METADATA": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/userpath-1.8.0.dist-info/METADATA"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:b9cc120bc37fa70825dad1306356a2a4923ff8e81bbe988a9147864411661fe1"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/opt/_internal/tools/lib/python3.9/site-packages/userpath-1.8.0.dist-info/METADATA",
+      "resolved": {
+        "pkg:pypi/userpath@1.8.0": {
+          "package_url": "pkg:pypi/userpath@1.8.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/bin/python": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/bin/python"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/bin/python",
+      "resolved": {
+        "pkg:generic/python@2.6.6": {
+          "package_url": "pkg:generic/python@2.6.6",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/iniparse-0.3.1-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/iniparse-0.3.1-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/iniparse-0.3.1-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/iniparse@0.3.1": {
+          "package_url": "pkg:pypi/iniparse@0.3.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/urlgrabber-3.9.1-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/urlgrabber-3.9.1-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib/python2.6/site-packages/urlgrabber-3.9.1-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/urlgrabber@3.9.1": {
+          "package_url": "pkg:pypi/urlgrabber@3.9.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/ordereddict-1.2-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/ordereddict-1.2-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/ordereddict-1.2-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/ordereddict@1.2": {
+          "package_url": "pkg:pypi/ordereddict@1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/policycoreutils_default_encoding-0.1-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/policycoreutils_default_encoding-0.1-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a581bc584cd28a49b4f3abf22d0adb2230c062085f5fc1eb27ee22c5a4925de7"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/policycoreutils_default_encoding-0.1-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/policycoreutils-default-encoding@0.1": {
+          "package_url": "pkg:pypi/policycoreutils-default-encoding@0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pycurl-7.19.0-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pycurl-7.19.0-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pycurl-7.19.0-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/pycurl@7.19.0": {
+          "package_url": "pkg:pypi/pycurl@7.19.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pygpgme-0.1-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pygpgme-0.1-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/pygpgme-0.1-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/pygpgme@0.1": {
+          "package_url": "pkg:pypi/pygpgme@0.1",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/setools-1.0-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/setools-1.0-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a581bc584cd28a49b4f3abf22d0adb2230c062085f5fc1eb27ee22c5a4925de7"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/setools-1.0-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/setools@1.0": {
+          "package_url": "pkg:pypi/setools@1.0",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/yum_metadata_parser-1.1.2-py2.6.egg-info": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/yum_metadata_parser-1.1.2-py2.6.egg-info"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:7813a449ed61a81abe9599c80d460dd19016ac0f8949aabec51ea4d445a3b0ad"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/usr/lib64/python2.6/site-packages/yum_metadata_parser-1.1.2-py2.6.egg-info",
+      "resolved": {
+        "pkg:pypi/yum-metadata-parser@1.1.2": {
+          "package_url": "pkg:pypi/yum-metadata-parser@1.1.2",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    },
+    "quay.io/pypa/manylinux2010_x86_64:/var/lib/rpm/Packages": {
+      "file": {
+        "source_location": "quay.io/pypa/manylinux2010_x86_64:/var/lib/rpm/Packages"
+      },
+      "metadata": {
+        "syft:filesystem": "sha256:a581bc584cd28a49b4f3abf22d0adb2230c062085f5fc1eb27ee22c5a4925de7"
+      },
+      "name": "quay.io/pypa/manylinux2010_x86_64:/var/lib/rpm/Packages",
+      "resolved": {
+        "pkg:rpm/centos/MAKEDEV@3.24-6.el6": {
+          "package_url": "pkg:rpm/centos/MAKEDEV@3.24-6.el6?arch=x86_64&upstream=MAKEDEV-3.24-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/audit-libs-python@2.4.5-6.el6": {
+          "package_url": "pkg:rpm/centos/audit-libs-python@2.4.5-6.el6?arch=x86_64&upstream=audit-2.4.5-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/audit-libs@2.4.5-6.el6": {
+          "package_url": "pkg:rpm/centos/audit-libs@2.4.5-6.el6?arch=x86_64&upstream=audit-2.4.5-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/autoconf@2.63-5.1.el6": {
+          "package_url": "pkg:rpm/centos/autoconf@2.63-5.1.el6?arch=noarch&upstream=autoconf-2.63-5.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/automake@1.11.1-4.el6": {
+          "package_url": "pkg:rpm/centos/automake@1.11.1-4.el6?arch=noarch&upstream=automake-1.11.1-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/basesystem@10.0-4.el6": {
+          "package_url": "pkg:rpm/centos/basesystem@10.0-4.el6?arch=noarch&upstream=basesystem-10.0-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bash@4.1.2-48.el6": {
+          "package_url": "pkg:rpm/centos/bash@4.1.2-48.el6?arch=x86_64&upstream=bash-4.1.2-48.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bind-libs@9.8.2-0.68.rc1.el6_10.8": {
+          "package_url": "pkg:rpm/centos/bind-libs@9.8.2-0.68.rc1.el6_10.8?arch=x86_64&epoch=32&upstream=bind-9.8.2-0.68.rc1.el6_10.8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bind-utils@9.8.2-0.68.rc1.el6_10.8": {
+          "package_url": "pkg:rpm/centos/bind-utils@9.8.2-0.68.rc1.el6_10.8?arch=x86_64&epoch=32&upstream=bind-9.8.2-0.68.rc1.el6_10.8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/binutils@2.20.51.0.2-5.48.el6_10.1": {
+          "package_url": "pkg:rpm/centos/binutils@2.20.51.0.2-5.48.el6_10.1?arch=x86_64&upstream=binutils-2.20.51.0.2-5.48.el6_10.1.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bison@2.4.1-5.el6": {
+          "package_url": "pkg:rpm/centos/bison@2.4.1-5.el6?arch=x86_64&upstream=bison-2.4.1-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bzip2-libs@1.0.5-7.el6_0": {
+          "package_url": "pkg:rpm/centos/bzip2-libs@1.0.5-7.el6_0?arch=x86_64&upstream=bzip2-1.0.5-7.el6_0.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/bzip2@1.0.5-7.el6_0": {
+          "package_url": "pkg:rpm/centos/bzip2@1.0.5-7.el6_0?arch=x86_64&upstream=bzip2-1.0.5-7.el6_0.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ca-certificates@2020.2.41-65.1.el6_10": {
+          "package_url": "pkg:rpm/centos/ca-certificates@2020.2.41-65.1.el6_10?arch=noarch&upstream=ca-certificates-2020.2.41-65.1.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/centos-release-scl-rh@2-4.el6.centos": {
+          "package_url": "pkg:rpm/centos/centos-release-scl-rh@2-4.el6.centos?arch=noarch&upstream=centos-release-scl-rh-2-4.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/centos-release-scl@7-4.el6.centos": {
+          "package_url": "pkg:rpm/centos/centos-release-scl@7-4.el6.centos?arch=noarch&epoch=10&upstream=centos-release-scl-7-4.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/centos-release@6-10.el6.centos.12.3": {
+          "package_url": "pkg:rpm/centos/centos-release@6-10.el6.centos.12.3?arch=x86_64&upstream=centos-release-6-10.el6.centos.12.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/checkpolicy@2.0.22-1.el6": {
+          "package_url": "pkg:rpm/centos/checkpolicy@2.0.22-1.el6?arch=x86_64&upstream=checkpolicy-2.0.22-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/chkconfig@1.3.49.5-1.el6": {
+          "package_url": "pkg:rpm/centos/chkconfig@1.3.49.5-1.el6?arch=x86_64&upstream=chkconfig-1.3.49.5-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/coreutils-libs@8.4-47.el6": {
+          "package_url": "pkg:rpm/centos/coreutils-libs@8.4-47.el6?arch=x86_64&upstream=coreutils-8.4-47.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/coreutils@8.4-47.el6": {
+          "package_url": "pkg:rpm/centos/coreutils@8.4-47.el6?arch=x86_64&upstream=coreutils-8.4-47.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/cpio@2.10-13.el6": {
+          "package_url": "pkg:rpm/centos/cpio@2.10-13.el6?arch=x86_64&upstream=cpio-2.10-13.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/cracklib-dicts@2.8.16-4.el6": {
+          "package_url": "pkg:rpm/centos/cracklib-dicts@2.8.16-4.el6?arch=x86_64&upstream=cracklib-2.8.16-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/cracklib@2.8.16-4.el6": {
+          "package_url": "pkg:rpm/centos/cracklib@2.8.16-4.el6?arch=x86_64&upstream=cracklib-2.8.16-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/curl@7.19.7-54.el6_10": {
+          "package_url": "pkg:rpm/centos/curl@7.19.7-54.el6_10?arch=x86_64&upstream=curl-7.19.7-54.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/cyrus-sasl-lib@2.1.23-15.el6_6.2": {
+          "package_url": "pkg:rpm/centos/cyrus-sasl-lib@2.1.23-15.el6_6.2?arch=x86_64&upstream=cyrus-sasl-2.1.23-15.el6_6.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/dash@0.5.5.1-4.el6": {
+          "package_url": "pkg:rpm/centos/dash@0.5.5.1-4.el6?arch=x86_64&upstream=dash-0.5.5.1-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/db4-utils@4.7.25-22.el6": {
+          "package_url": "pkg:rpm/centos/db4-utils@4.7.25-22.el6?arch=x86_64&upstream=db4-4.7.25-22.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/db4@4.7.25-22.el6": {
+          "package_url": "pkg:rpm/centos/db4@4.7.25-22.el6?arch=x86_64&upstream=db4-4.7.25-22.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/dbus-glib@0.86-6.el6": {
+          "package_url": "pkg:rpm/centos/dbus-glib@0.86-6.el6?arch=x86_64&upstream=dbus-glib-0.86-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/dbus-libs@1.2.24-11.el6_10": {
+          "package_url": "pkg:rpm/centos/dbus-libs@1.2.24-11.el6_10?arch=x86_64&epoch=1&upstream=dbus-1.2.24-11.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-binutils@2.30-55.el6.2": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-binutils@2.30-55.el6.2?arch=x86_64&upstream=devtoolset-8-binutils-2.30-55.el6.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-gcc-c++@8.3.1-3.2.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-gcc-c++@8.3.1-3.2.el6?arch=x86_64&upstream=devtoolset-8-gcc-8.3.1-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-gcc-gfortran@8.3.1-3.2.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-gcc-gfortran@8.3.1-3.2.el6?arch=x86_64&upstream=devtoolset-8-gcc-8.3.1-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-gcc@8.3.1-3.2.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-gcc@8.3.1-3.2.el6?arch=x86_64&upstream=devtoolset-8-gcc-8.3.1-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-libquadmath-devel@8.3.1-3.2.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-libquadmath-devel@8.3.1-3.2.el6?arch=x86_64&upstream=devtoolset-8-gcc-8.3.1-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-libstdc++-devel@8.3.1-3.2.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-libstdc++-devel@8.3.1-3.2.el6?arch=x86_64&upstream=devtoolset-8-gcc-8.3.1-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/devtoolset-8-runtime@8.1-1.el6": {
+          "package_url": "pkg:rpm/centos/devtoolset-8-runtime@8.1-1.el6?arch=x86_64&upstream=devtoolset-8-8.1-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/diffutils@2.8.1-28.el6": {
+          "package_url": "pkg:rpm/centos/diffutils@2.8.1-28.el6?arch=x86_64&upstream=diffutils-2.8.1-28.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/elfutils-libelf@0.164-2.el6": {
+          "package_url": "pkg:rpm/centos/elfutils-libelf@0.164-2.el6?arch=x86_64&upstream=elfutils-0.164-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/epel-release@6-8": {
+          "package_url": "pkg:rpm/centos/epel-release@6-8?arch=noarch&upstream=epel-release-6-8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ethtool@3.5-6.el6": {
+          "package_url": "pkg:rpm/centos/ethtool@3.5-6.el6?arch=x86_64&epoch=2&upstream=ethtool-3.5-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/expat-devel@2.0.1-13.el6_8": {
+          "package_url": "pkg:rpm/centos/expat-devel@2.0.1-13.el6_8?arch=x86_64&upstream=expat-2.0.1-13.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/expat@2.0.1-13.el6_8": {
+          "package_url": "pkg:rpm/centos/expat@2.0.1-13.el6_8?arch=x86_64&upstream=expat-2.0.1-13.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/file-libs@5.04-30.el6": {
+          "package_url": "pkg:rpm/centos/file-libs@5.04-30.el6?arch=x86_64&upstream=file-5.04-30.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/file@5.04-30.el6": {
+          "package_url": "pkg:rpm/centos/file@5.04-30.el6?arch=x86_64&upstream=file-5.04-30.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/filesystem@2.4.30-3.el6": {
+          "package_url": "pkg:rpm/centos/filesystem@2.4.30-3.el6?arch=x86_64&upstream=filesystem-2.4.30-3.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/findutils@4.4.2-9.el6": {
+          "package_url": "pkg:rpm/centos/findutils@4.4.2-9.el6?arch=x86_64&epoch=1&upstream=findutils-4.4.2-9.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/fontconfig@2.8.0-5.el6": {
+          "package_url": "pkg:rpm/centos/fontconfig@2.8.0-5.el6?arch=x86_64&upstream=fontconfig-2.8.0-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/freetype@2.3.11-19.el6_10": {
+          "package_url": "pkg:rpm/centos/freetype@2.3.11-19.el6_10?arch=x86_64&upstream=freetype-2.3.11-19.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gamin@0.1.10-9.el6": {
+          "package_url": "pkg:rpm/centos/gamin@0.1.10-9.el6?arch=x86_64&upstream=gamin-0.1.10-9.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gawk@3.1.7-10.el6_7.3": {
+          "package_url": "pkg:rpm/centos/gawk@3.1.7-10.el6_7.3?arch=x86_64&upstream=gawk-3.1.7-10.el6_7.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gd@2.0.35-11.el6": {
+          "package_url": "pkg:rpm/centos/gd@2.0.35-11.el6?arch=x86_64&upstream=gd-2.0.35-11.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gdbm@1.8.0-39.el6": {
+          "package_url": "pkg:rpm/centos/gdbm@1.8.0-39.el6?arch=x86_64&upstream=gdbm-1.8.0-39.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glib2-devel@2.28.8-10.el6": {
+          "package_url": "pkg:rpm/centos/glib2-devel@2.28.8-10.el6?arch=x86_64&upstream=glib2-2.28.8-10.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glib2@2.28.8-10.el6": {
+          "package_url": "pkg:rpm/centos/glib2@2.28.8-10.el6?arch=x86_64&upstream=glib2-2.28.8-10.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc-common@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc-common@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc-devel@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc-devel@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc-headers@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc-headers@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc-static@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc-static@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc-utils@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc-utils@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/glibc@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/glibc@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gmp@4.3.1-13.el6": {
+          "package_url": "pkg:rpm/centos/gmp@4.3.1-13.el6?arch=x86_64&upstream=gmp-4.3.1-13.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gnupg2@2.0.14-9.el6_10": {
+          "package_url": "pkg:rpm/centos/gnupg2@2.0.14-9.el6_10?arch=x86_64&upstream=gnupg2-2.0.14-9.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gpg-pubkey@0608b895-4bd22942": {
+          "package_url": "pkg:rpm/centos/gpg-pubkey@0608b895-4bd22942?distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gpg-pubkey@c105b9de-4e0fd3a3": {
+          "package_url": "pkg:rpm/centos/gpg-pubkey@c105b9de-4e0fd3a3?distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gpg-pubkey@f2ee9d55-560cfc0a": {
+          "package_url": "pkg:rpm/centos/gpg-pubkey@f2ee9d55-560cfc0a?distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gpgme@1.1.8-3.el6": {
+          "package_url": "pkg:rpm/centos/gpgme@1.1.8-3.el6?arch=x86_64&upstream=gpgme-1.1.8-3.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/grep@2.20-6.el6": {
+          "package_url": "pkg:rpm/centos/grep@2.20-6.el6?arch=x86_64&upstream=grep-2.20-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/groff@1.18.1.4-21.el6": {
+          "package_url": "pkg:rpm/centos/groff@1.18.1.4-21.el6?arch=x86_64&upstream=groff-1.18.1.4-21.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/gzip@1.3.12-24.el6": {
+          "package_url": "pkg:rpm/centos/gzip@1.3.12-24.el6?arch=x86_64&upstream=gzip-1.3.12-24.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/hardlink@1.0-10.el6": {
+          "package_url": "pkg:rpm/centos/hardlink@1.0-10.el6?arch=x86_64&epoch=1&upstream=hardlink-1.0-10.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/hwdata@0.233-20.1.el6": {
+          "package_url": "pkg:rpm/centos/hwdata@0.233-20.1.el6?arch=noarch&upstream=hwdata-0.233-20.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/info@4.13a-8.el6": {
+          "package_url": "pkg:rpm/centos/info@4.13a-8.el6?arch=x86_64&upstream=texinfo-4.13a-8.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/initscripts@9.03.61-1.el6.centos": {
+          "package_url": "pkg:rpm/centos/initscripts@9.03.61-1.el6.centos?arch=x86_64&upstream=initscripts-9.03.61-1.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/iproute@2.6.32-57.el6": {
+          "package_url": "pkg:rpm/centos/iproute@2.6.32-57.el6?arch=x86_64&upstream=iproute-2.6.32-57.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/iptables@1.4.7-19.el6": {
+          "package_url": "pkg:rpm/centos/iptables@1.4.7-19.el6?arch=x86_64&upstream=iptables-1.4.7-19.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/iputils@20071127-24.el6": {
+          "package_url": "pkg:rpm/centos/iputils@20071127-24.el6?arch=x86_64&upstream=iputils-20071127-24.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/kernel-headers@2.6.32-754.35.1.el6": {
+          "package_url": "pkg:rpm/centos/kernel-headers@2.6.32-754.35.1.el6?arch=x86_64&upstream=kernel-2.6.32-754.35.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/keyutils-libs@1.4-5.el6": {
+          "package_url": "pkg:rpm/centos/keyutils-libs@1.4-5.el6?arch=x86_64&upstream=keyutils-1.4-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/krb5-libs@1.10.3-65.el6": {
+          "package_url": "pkg:rpm/centos/krb5-libs@1.10.3-65.el6?arch=x86_64&upstream=krb5-1.10.3-65.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/less@436-13.el6": {
+          "package_url": "pkg:rpm/centos/less@436-13.el6?arch=x86_64&upstream=less-436-13.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libICE-devel@1.0.6-1.el6": {
+          "package_url": "pkg:rpm/centos/libICE-devel@1.0.6-1.el6?arch=x86_64&upstream=libICE-1.0.6-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libICE@1.0.6-1.el6": {
+          "package_url": "pkg:rpm/centos/libICE@1.0.6-1.el6?arch=x86_64&upstream=libICE-1.0.6-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libSM-devel@1.2.1-2.el6": {
+          "package_url": "pkg:rpm/centos/libSM-devel@1.2.1-2.el6?arch=x86_64&upstream=libSM-1.2.1-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libSM@1.2.1-2.el6": {
+          "package_url": "pkg:rpm/centos/libSM@1.2.1-2.el6?arch=x86_64&upstream=libSM-1.2.1-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libX11-common@1.6.4-4.el6_10": {
+          "package_url": "pkg:rpm/centos/libX11-common@1.6.4-4.el6_10?arch=noarch&upstream=libX11-1.6.4-4.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libX11-devel@1.6.4-4.el6_10": {
+          "package_url": "pkg:rpm/centos/libX11-devel@1.6.4-4.el6_10?arch=x86_64&upstream=libX11-1.6.4-4.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libX11@1.6.4-4.el6_10": {
+          "package_url": "pkg:rpm/centos/libX11@1.6.4-4.el6_10?arch=x86_64&upstream=libX11-1.6.4-4.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXau-devel@1.0.6-4.el6": {
+          "package_url": "pkg:rpm/centos/libXau-devel@1.0.6-4.el6?arch=x86_64&upstream=libXau-1.0.6-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXau@1.0.6-4.el6": {
+          "package_url": "pkg:rpm/centos/libXau@1.0.6-4.el6?arch=x86_64&upstream=libXau-1.0.6-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXdamage-devel@1.1.3-4.el6": {
+          "package_url": "pkg:rpm/centos/libXdamage-devel@1.1.3-4.el6?arch=x86_64&upstream=libXdamage-1.1.3-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXdamage@1.1.3-4.el6": {
+          "package_url": "pkg:rpm/centos/libXdamage@1.1.3-4.el6?arch=x86_64&upstream=libXdamage-1.1.3-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXext-devel@1.3.3-1.el6": {
+          "package_url": "pkg:rpm/centos/libXext-devel@1.3.3-1.el6?arch=x86_64&upstream=libXext-1.3.3-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXext@1.3.3-1.el6": {
+          "package_url": "pkg:rpm/centos/libXext@1.3.3-1.el6?arch=x86_64&upstream=libXext-1.3.3-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXfixes-devel@5.0.3-1.el6": {
+          "package_url": "pkg:rpm/centos/libXfixes-devel@5.0.3-1.el6?arch=x86_64&upstream=libXfixes-5.0.3-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXfixes@5.0.3-1.el6": {
+          "package_url": "pkg:rpm/centos/libXfixes@5.0.3-1.el6?arch=x86_64&upstream=libXfixes-5.0.3-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXft@2.3.2-1.el6": {
+          "package_url": "pkg:rpm/centos/libXft@2.3.2-1.el6?arch=x86_64&upstream=libXft-2.3.2-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXpm@3.5.10-2.el6": {
+          "package_url": "pkg:rpm/centos/libXpm@3.5.10-2.el6?arch=x86_64&upstream=libXpm-3.5.10-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXrender-devel@0.9.10-1.el6": {
+          "package_url": "pkg:rpm/centos/libXrender-devel@0.9.10-1.el6?arch=x86_64&upstream=libXrender-0.9.10-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXrender@0.9.10-1.el6": {
+          "package_url": "pkg:rpm/centos/libXrender@0.9.10-1.el6?arch=x86_64&upstream=libXrender-0.9.10-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXxf86vm-devel@1.1.3-2.1.el6": {
+          "package_url": "pkg:rpm/centos/libXxf86vm-devel@1.1.3-2.1.el6?arch=x86_64&upstream=libXxf86vm-1.1.3-2.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libXxf86vm@1.1.3-2.1.el6": {
+          "package_url": "pkg:rpm/centos/libXxf86vm@1.1.3-2.1.el6?arch=x86_64&upstream=libXxf86vm-1.1.3-2.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libacl@2.2.49-7.el6_9.1": {
+          "package_url": "pkg:rpm/centos/libacl@2.2.49-7.el6_9.1?arch=x86_64&upstream=acl-2.2.49-7.el6_9.1.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libattr@2.4.44-7.el6": {
+          "package_url": "pkg:rpm/centos/libattr@2.4.44-7.el6?arch=x86_64&upstream=attr-2.4.44-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libblkid@2.17.2-12.28.el6_9.2": {
+          "package_url": "pkg:rpm/centos/libblkid@2.17.2-12.28.el6_9.2?arch=x86_64&upstream=util-linux-ng-2.17.2-12.28.el6_9.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libcap@2.16-5.5.el6": {
+          "package_url": "pkg:rpm/centos/libcap@2.16-5.5.el6?arch=x86_64&upstream=libcap-2.16-5.5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libcgroup@0.40.rc1-27.el6_10": {
+          "package_url": "pkg:rpm/centos/libcgroup@0.40.rc1-27.el6_10?arch=x86_64&upstream=libcgroup-0.40.rc1-27.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libcom_err@1.41.12-24.el6": {
+          "package_url": "pkg:rpm/centos/libcom_err@1.41.12-24.el6?arch=x86_64&upstream=e2fsprogs-1.41.12-24.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libcurl@7.19.7-54.el6_10": {
+          "package_url": "pkg:rpm/centos/libcurl@7.19.7-54.el6_10?arch=x86_64&upstream=curl-7.19.7-54.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libdrm-devel@2.4.65-2.el6": {
+          "package_url": "pkg:rpm/centos/libdrm-devel@2.4.65-2.el6?arch=x86_64&upstream=libdrm-2.4.65-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libdrm@2.4.65-2.el6": {
+          "package_url": "pkg:rpm/centos/libdrm@2.4.65-2.el6?arch=x86_64&upstream=libdrm-2.4.65-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libffi@3.0.5-3.2.el6": {
+          "package_url": "pkg:rpm/centos/libffi@3.0.5-3.2.el6?arch=x86_64&upstream=libffi-3.0.5-3.2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libgcc@4.4.7-23.el6": {
+          "package_url": "pkg:rpm/centos/libgcc@4.4.7-23.el6?arch=x86_64&upstream=gcc-4.4.7-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libgcrypt@1.4.5-12.el6_8": {
+          "package_url": "pkg:rpm/centos/libgcrypt@1.4.5-12.el6_8?arch=x86_64&upstream=libgcrypt-1.4.5-12.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libgfortran5@8.2.1-1.3.1.el6_10": {
+          "package_url": "pkg:rpm/centos/libgfortran5@8.2.1-1.3.1.el6_10?arch=x86_64&upstream=gcc-libraries-8.2.1-1.3.1.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libgomp@4.4.7-23.el6": {
+          "package_url": "pkg:rpm/centos/libgomp@4.4.7-23.el6?arch=x86_64&upstream=gcc-4.4.7-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libgpg-error@1.7-4.el6": {
+          "package_url": "pkg:rpm/centos/libgpg-error@1.7-4.el6?arch=x86_64&upstream=libgpg-error-1.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libidn@1.18-2.el6": {
+          "package_url": "pkg:rpm/centos/libidn@1.18-2.el6?arch=x86_64&upstream=libidn-1.18-2.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libjpeg-turbo@1.2.1-3.el6_5": {
+          "package_url": "pkg:rpm/centos/libjpeg-turbo@1.2.1-3.el6_5?arch=x86_64&upstream=libjpeg-turbo-1.2.1-3.el6_5.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libkadm5@1.10.3-65.el6": {
+          "package_url": "pkg:rpm/centos/libkadm5@1.10.3-65.el6?arch=x86_64&upstream=krb5-1.10.3-65.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libnih@1.0.1-8.el6": {
+          "package_url": "pkg:rpm/centos/libnih@1.0.1-8.el6?arch=x86_64&upstream=libnih-1.0.1-8.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libpcap@1.4.0-4.20130826git2dbcaa1.el6": {
+          "package_url": "pkg:rpm/centos/libpcap@1.4.0-4.20130826git2dbcaa1.el6?arch=x86_64&epoch=14&upstream=libpcap-1.4.0-4.20130826git2dbcaa1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libpciaccess@0.13.4-1.el6": {
+          "package_url": "pkg:rpm/centos/libpciaccess@0.13.4-1.el6?arch=x86_64&upstream=libpciaccess-0.13.4-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libpng@1.2.49-2.el6_7": {
+          "package_url": "pkg:rpm/centos/libpng@1.2.49-2.el6_7?arch=x86_64&epoch=2&upstream=libpng-1.2.49-2.el6_7.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libquadmath@8.2.1-1.3.1.el6_10": {
+          "package_url": "pkg:rpm/centos/libquadmath@8.2.1-1.3.1.el6_10?arch=x86_64&upstream=gcc-libraries-8.2.1-1.3.1.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libselinux-python@2.0.94-7.el6": {
+          "package_url": "pkg:rpm/centos/libselinux-python@2.0.94-7.el6?arch=x86_64&upstream=libselinux-2.0.94-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libselinux-utils@2.0.94-7.el6": {
+          "package_url": "pkg:rpm/centos/libselinux-utils@2.0.94-7.el6?arch=x86_64&upstream=libselinux-2.0.94-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libselinux@2.0.94-7.el6": {
+          "package_url": "pkg:rpm/centos/libselinux@2.0.94-7.el6?arch=x86_64&upstream=libselinux-2.0.94-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libsemanage-python@2.0.43-5.1.el6": {
+          "package_url": "pkg:rpm/centos/libsemanage-python@2.0.43-5.1.el6?arch=x86_64&upstream=libsemanage-2.0.43-5.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libsemanage@2.0.43-5.1.el6": {
+          "package_url": "pkg:rpm/centos/libsemanage@2.0.43-5.1.el6?arch=x86_64&upstream=libsemanage-2.0.43-5.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libsepol@2.0.41-4.el6": {
+          "package_url": "pkg:rpm/centos/libsepol@2.0.41-4.el6?arch=x86_64&upstream=libsepol-2.0.41-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libssh2@1.4.2-3.el6_10.1": {
+          "package_url": "pkg:rpm/centos/libssh2@1.4.2-3.el6_10.1?arch=x86_64&upstream=libssh2-1.4.2-3.el6_10.1.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libstdc++-devel@4.4.7-23.el6": {
+          "package_url": "pkg:rpm/centos/libstdc++-devel@4.4.7-23.el6?arch=x86_64&upstream=gcc-4.4.7-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libstdc++@4.4.7-23.el6": {
+          "package_url": "pkg:rpm/centos/libstdc++@4.4.7-23.el6?arch=x86_64&upstream=gcc-4.4.7-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libtasn1@2.3-6.el6_5": {
+          "package_url": "pkg:rpm/centos/libtasn1@2.3-6.el6_5?arch=x86_64&upstream=libtasn1-2.3-6.el6_5.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libusb@0.1.12-23.el6": {
+          "package_url": "pkg:rpm/centos/libusb@0.1.12-23.el6?arch=x86_64&upstream=libusb-0.1.12-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libuser@0.56.13-8.el6_7": {
+          "package_url": "pkg:rpm/centos/libuser@0.56.13-8.el6_7?arch=x86_64&upstream=libuser-0.56.13-8.el6_7.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libutempter@1.1.5-4.1.el6": {
+          "package_url": "pkg:rpm/centos/libutempter@1.1.5-4.1.el6?arch=x86_64&upstream=libutempter-1.1.5-4.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libuuid@2.17.2-12.28.el6_9.2": {
+          "package_url": "pkg:rpm/centos/libuuid@2.17.2-12.28.el6_9.2?arch=x86_64&upstream=util-linux-ng-2.17.2-12.28.el6_9.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libxcb-devel@1.12-4.el6": {
+          "package_url": "pkg:rpm/centos/libxcb-devel@1.12-4.el6?arch=x86_64&upstream=libxcb-1.12-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libxcb@1.12-4.el6": {
+          "package_url": "pkg:rpm/centos/libxcb@1.12-4.el6?arch=x86_64&upstream=libxcb-1.12-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/libxml2@2.7.6-21.el6_8.1": {
+          "package_url": "pkg:rpm/centos/libxml2@2.7.6-21.el6_8.1?arch=x86_64&upstream=libxml2-2.7.6-21.el6_8.1.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/lua@5.1.4-4.1.el6": {
+          "package_url": "pkg:rpm/centos/lua@5.1.4-4.1.el6?arch=x86_64&upstream=lua-5.1.4-4.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/m4@1.4.13-5.el6": {
+          "package_url": "pkg:rpm/centos/m4@1.4.13-5.el6?arch=x86_64&upstream=m4-1.4.13-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/make@3.81-23.el6": {
+          "package_url": "pkg:rpm/centos/make@3.81-23.el6?arch=x86_64&epoch=1&upstream=make-3.81-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-dri-drivers@11.0.7-4.el6": {
+          "package_url": "pkg:rpm/centos/mesa-dri-drivers@11.0.7-4.el6?arch=x86_64&upstream=mesa-11.0.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-dri-filesystem@11.0.7-4.el6": {
+          "package_url": "pkg:rpm/centos/mesa-dri-filesystem@11.0.7-4.el6?arch=x86_64&upstream=mesa-11.0.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-dri1-drivers@7.11-8.el6": {
+          "package_url": "pkg:rpm/centos/mesa-dri1-drivers@7.11-8.el6?arch=x86_64&upstream=mesa-dri1-drivers-7.11-8.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-libGL-devel@11.0.7-4.el6": {
+          "package_url": "pkg:rpm/centos/mesa-libGL-devel@11.0.7-4.el6?arch=x86_64&upstream=mesa-11.0.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-libGL@11.0.7-4.el6": {
+          "package_url": "pkg:rpm/centos/mesa-libGL@11.0.7-4.el6?arch=x86_64&upstream=mesa-11.0.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mesa-private-llvm@3.6.2-1.el6": {
+          "package_url": "pkg:rpm/centos/mesa-private-llvm@3.6.2-1.el6?arch=x86_64&upstream=mesa-private-llvm-3.6.2-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mingetty@1.08-5.el6": {
+          "package_url": "pkg:rpm/centos/mingetty@1.08-5.el6?arch=x86_64&upstream=mingetty-1.08-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/module-init-tools@3.9-26.el6": {
+          "package_url": "pkg:rpm/centos/module-init-tools@3.9-26.el6?arch=x86_64&upstream=module-init-tools-3.9-26.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/mpfr@2.4.1-6.el6": {
+          "package_url": "pkg:rpm/centos/mpfr@2.4.1-6.el6?arch=x86_64&upstream=mpfr-2.4.1-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ncurses-base@5.7-4.20090207.el6": {
+          "package_url": "pkg:rpm/centos/ncurses-base@5.7-4.20090207.el6?arch=x86_64&upstream=ncurses-5.7-4.20090207.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ncurses-libs@5.7-4.20090207.el6": {
+          "package_url": "pkg:rpm/centos/ncurses-libs@5.7-4.20090207.el6?arch=x86_64&upstream=ncurses-5.7-4.20090207.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ncurses@5.7-4.20090207.el6": {
+          "package_url": "pkg:rpm/centos/ncurses@5.7-4.20090207.el6?arch=x86_64&upstream=ncurses-5.7-4.20090207.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/net-tools@1.60-114.el6": {
+          "package_url": "pkg:rpm/centos/net-tools@1.60-114.el6?arch=x86_64&upstream=net-tools-1.60-114.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nscd@2.12-1.212.1.el6_10.3": {
+          "package_url": "pkg:rpm/centos/nscd@2.12-1.212.1.el6_10.3?arch=x86_64&upstream=glibc-2.12-1.212.1.el6_10.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nspr@4.21.0-1.el6_10": {
+          "package_url": "pkg:rpm/centos/nspr@4.21.0-1.el6_10?arch=x86_64&upstream=nspr-4.21.0-1.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss-softokn-freebl@3.44.0-6.el6_10": {
+          "package_url": "pkg:rpm/centos/nss-softokn-freebl@3.44.0-6.el6_10?arch=x86_64&upstream=nss-softokn-3.44.0-6.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss-softokn@3.44.0-6.el6_10": {
+          "package_url": "pkg:rpm/centos/nss-softokn@3.44.0-6.el6_10?arch=x86_64&upstream=nss-softokn-3.44.0-6.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss-sysinit@3.44.0-7.el6_10": {
+          "package_url": "pkg:rpm/centos/nss-sysinit@3.44.0-7.el6_10?arch=x86_64&upstream=nss-3.44.0-7.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss-tools@3.44.0-7.el6_10": {
+          "package_url": "pkg:rpm/centos/nss-tools@3.44.0-7.el6_10?arch=x86_64&upstream=nss-3.44.0-7.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss-util@3.44.0-1.el6_10": {
+          "package_url": "pkg:rpm/centos/nss-util@3.44.0-1.el6_10?arch=x86_64&upstream=nss-util-3.44.0-1.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/nss@3.44.0-7.el6_10": {
+          "package_url": "pkg:rpm/centos/nss@3.44.0-7.el6_10?arch=x86_64&upstream=nss-3.44.0-7.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/openldap@2.4.40-16.el6": {
+          "package_url": "pkg:rpm/centos/openldap@2.4.40-16.el6?arch=x86_64&upstream=openldap-2.4.40-16.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/openssl@1.0.1e-58.el6_10": {
+          "package_url": "pkg:rpm/centos/openssl@1.0.1e-58.el6_10?arch=x86_64&upstream=openssl-1.0.1e-58.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/p11-kit-trust@0.18.5-2.el6_5.2": {
+          "package_url": "pkg:rpm/centos/p11-kit-trust@0.18.5-2.el6_5.2?arch=x86_64&upstream=p11-kit-0.18.5-2.el6_5.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/p11-kit@0.18.5-2.el6_5.2": {
+          "package_url": "pkg:rpm/centos/p11-kit@0.18.5-2.el6_5.2?arch=x86_64&upstream=p11-kit-0.18.5-2.el6_5.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pam@1.1.1-24.el6": {
+          "package_url": "pkg:rpm/centos/pam@1.1.1-24.el6?arch=x86_64&upstream=pam-1.1.1-24.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/passwd@0.77-7.el6": {
+          "package_url": "pkg:rpm/centos/passwd@0.77-7.el6?arch=x86_64&upstream=passwd-0.77-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/patch@2.6-8.el6_9": {
+          "package_url": "pkg:rpm/centos/patch@2.6-8.el6_9?arch=x86_64&upstream=patch-2.6-8.el6_9.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pcre@7.8-7.el6": {
+          "package_url": "pkg:rpm/centos/pcre@7.8-7.el6?arch=x86_64&upstream=pcre-7.8-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl-Module-Pluggable@3.90-144.el6": {
+          "package_url": "pkg:rpm/centos/perl-Module-Pluggable@3.90-144.el6?arch=x86_64&epoch=1&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl-Pod-Escapes@1.04-144.el6": {
+          "package_url": "pkg:rpm/centos/perl-Pod-Escapes@1.04-144.el6?arch=x86_64&epoch=1&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl-Pod-Simple@3.13-144.el6": {
+          "package_url": "pkg:rpm/centos/perl-Pod-Simple@3.13-144.el6?arch=x86_64&epoch=1&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl-libs@5.10.1-144.el6": {
+          "package_url": "pkg:rpm/centos/perl-libs@5.10.1-144.el6?arch=x86_64&epoch=4&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl-version@0.77-144.el6": {
+          "package_url": "pkg:rpm/centos/perl-version@0.77-144.el6?arch=x86_64&epoch=3&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/perl@5.10.1-144.el6": {
+          "package_url": "pkg:rpm/centos/perl@5.10.1-144.el6?arch=x86_64&epoch=4&upstream=perl-5.10.1-144.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pinentry@0.7.6-8.el6": {
+          "package_url": "pkg:rpm/centos/pinentry@0.7.6-8.el6?arch=x86_64&upstream=pinentry-0.7.6-8.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pkgconfig@0.23-9.1.el6": {
+          "package_url": "pkg:rpm/centos/pkgconfig@0.23-9.1.el6?arch=x86_64&epoch=1&upstream=pkgconfig-0.23-9.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/plymouth-core-libs@0.8.3-29.el6.centos": {
+          "package_url": "pkg:rpm/centos/plymouth-core-libs@0.8.3-29.el6.centos?arch=x86_64&upstream=plymouth-0.8.3-29.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/plymouth-scripts@0.8.3-29.el6.centos": {
+          "package_url": "pkg:rpm/centos/plymouth-scripts@0.8.3-29.el6.centos?arch=x86_64&upstream=plymouth-0.8.3-29.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/plymouth@0.8.3-29.el6.centos": {
+          "package_url": "pkg:rpm/centos/plymouth@0.8.3-29.el6.centos?arch=x86_64&upstream=plymouth-0.8.3-29.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/policycoreutils-python@2.0.83-30.1.el6_8": {
+          "dependencies": [
+            "pkg:pypi/policycoreutils-default-encoding@0.1"
+          ],
+          "package_url": "pkg:rpm/centos/policycoreutils-python@2.0.83-30.1.el6_8?arch=x86_64&upstream=policycoreutils-2.0.83-30.1.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/policycoreutils@2.0.83-30.1.el6_8": {
+          "package_url": "pkg:rpm/centos/policycoreutils@2.0.83-30.1.el6_8?arch=x86_64&upstream=policycoreutils-2.0.83-30.1.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/popt@1.13-7.el6": {
+          "package_url": "pkg:rpm/centos/popt@1.13-7.el6?arch=x86_64&upstream=popt-1.13-7.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/procps@3.2.8-45.el6_9.3": {
+          "package_url": "pkg:rpm/centos/procps@3.2.8-45.el6_9.3?arch=x86_64&upstream=procps-3.2.8-45.el6_9.3.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/psmisc@22.6-24.el6": {
+          "package_url": "pkg:rpm/centos/psmisc@22.6-24.el6?arch=x86_64&upstream=psmisc-22.6-24.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pth@2.0.7-9.3.el6": {
+          "package_url": "pkg:rpm/centos/pth@2.0.7-9.3.el6?arch=x86_64&upstream=pth-2.0.7-9.3.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/pygpgme@0.1-18.20090824bzr68.el6": {
+          "dependencies": [
+            "pkg:pypi/pygpgme@0.1"
+          ],
+          "package_url": "pkg:rpm/centos/pygpgme@0.1-18.20090824bzr68.el6?arch=x86_64&upstream=pygpgme-0.1-18.20090824bzr68.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/python-iniparse@0.3.1-2.1.el6": {
+          "dependencies": [
+            "pkg:pypi/iniparse@0.3.1"
+          ],
+          "package_url": "pkg:rpm/centos/python-iniparse@0.3.1-2.1.el6?arch=noarch&upstream=python-iniparse-0.3.1-2.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/python-libs@2.6.6-68.el6_10": {
+          "dependencies": [
+            "pkg:generic/python@2.6.6",
+            "pkg:pypi/ordereddict@1.2"
+          ],
+          "package_url": "pkg:rpm/centos/python-libs@2.6.6-68.el6_10?arch=x86_64&upstream=python-2.6.6-68.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/python-pycurl@7.19.0-9.el6": {
+          "dependencies": [
+            "pkg:pypi/pycurl@7.19.0"
+          ],
+          "package_url": "pkg:rpm/centos/python-pycurl@7.19.0-9.el6?arch=x86_64&upstream=python-pycurl-7.19.0-9.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/python-urlgrabber@3.9.1-11.el6": {
+          "dependencies": [
+            "pkg:pypi/urlgrabber@3.9.1"
+          ],
+          "package_url": "pkg:rpm/centos/python-urlgrabber@3.9.1-11.el6?arch=noarch&upstream=python-urlgrabber-3.9.1-11.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/python@2.6.6-68.el6_10": {
+          "dependencies": [
+            "pkg:generic/python@2.6.6"
+          ],
+          "package_url": "pkg:rpm/centos/python@2.6.6-68.el6_10?arch=x86_64&upstream=python-2.6.6-68.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/readline@6.0-4.el6": {
+          "package_url": "pkg:rpm/centos/readline@6.0-4.el6?arch=x86_64&upstream=readline-6.0-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/redhat-logos@60.0.14-12.el6.centos": {
+          "package_url": "pkg:rpm/centos/redhat-logos@60.0.14-12.el6.centos?arch=noarch&upstream=redhat-logos-60.0.14-12.el6.centos.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/rootfiles@8.1-6.1.el6": {
+          "package_url": "pkg:rpm/centos/rootfiles@8.1-6.1.el6?arch=noarch&upstream=rootfiles-8.1-6.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/rpm-libs@4.8.0-59.el6": {
+          "package_url": "pkg:rpm/centos/rpm-libs@4.8.0-59.el6?arch=x86_64&upstream=rpm-4.8.0-59.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/rpm-python@4.8.0-59.el6": {
+          "package_url": "pkg:rpm/centos/rpm-python@4.8.0-59.el6?arch=x86_64&upstream=rpm-4.8.0-59.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/rpm@4.8.0-59.el6": {
+          "package_url": "pkg:rpm/centos/rpm@4.8.0-59.el6?arch=x86_64&upstream=rpm-4.8.0-59.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/scl-utils@20120927-29.el6_9": {
+          "package_url": "pkg:rpm/centos/scl-utils@20120927-29.el6_9?arch=x86_64&upstream=scl-utils-20120927-29.el6_9.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/sed@4.2.1-10.el6": {
+          "package_url": "pkg:rpm/centos/sed@4.2.1-10.el6?arch=x86_64&upstream=sed-4.2.1-10.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/setools-libs-python@3.3.7-4.el6": {
+          "dependencies": [
+            "pkg:pypi/setools@1.0"
+          ],
+          "package_url": "pkg:rpm/centos/setools-libs-python@3.3.7-4.el6?arch=x86_64&upstream=setools-3.3.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/setools-libs@3.3.7-4.el6": {
+          "package_url": "pkg:rpm/centos/setools-libs@3.3.7-4.el6?arch=x86_64&upstream=setools-3.3.7-4.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/setup@2.8.14-23.el6": {
+          "package_url": "pkg:rpm/centos/setup@2.8.14-23.el6?arch=noarch&upstream=setup-2.8.14-23.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/shadow-utils@4.1.5.1-5.el6": {
+          "package_url": "pkg:rpm/centos/shadow-utils@4.1.5.1-5.el6?arch=x86_64&epoch=2&upstream=shadow-utils-4.1.5.1-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/shared-mime-info@0.70-6.el6": {
+          "package_url": "pkg:rpm/centos/shared-mime-info@0.70-6.el6?arch=x86_64&upstream=shared-mime-info-0.70-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/sqlite@3.6.20-1.el6_7.2": {
+          "package_url": "pkg:rpm/centos/sqlite@3.6.20-1.el6_7.2?arch=x86_64&upstream=sqlite-3.6.20-1.el6_7.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/sysvinit-tools@2.87-6.dsf.el6": {
+          "package_url": "pkg:rpm/centos/sysvinit-tools@2.87-6.dsf.el6?arch=x86_64&upstream=sysvinit-2.87-6.dsf.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/tar@1.23-15.el6_8": {
+          "package_url": "pkg:rpm/centos/tar@1.23-15.el6_8?arch=x86_64&epoch=2&upstream=tar-1.23-15.el6_8.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/tcl@8.5.7-6.el6": {
+          "package_url": "pkg:rpm/centos/tcl@8.5.7-6.el6?arch=x86_64&epoch=1&upstream=tcl-8.5.7-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/tk@8.5.7-5.el6": {
+          "package_url": "pkg:rpm/centos/tk@8.5.7-5.el6?arch=x86_64&epoch=1&upstream=tk-8.5.7-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/tzdata@2020d-1.el6": {
+          "package_url": "pkg:rpm/centos/tzdata@2020d-1.el6?arch=noarch&upstream=tzdata-2020d-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/udev@147-2.74.el6_10": {
+          "package_url": "pkg:rpm/centos/udev@147-2.74.el6_10?arch=x86_64&upstream=udev-147-2.74.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/unzip@6.0-5.el6": {
+          "package_url": "pkg:rpm/centos/unzip@6.0-5.el6?arch=x86_64&upstream=unzip-6.0-5.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/upstart@0.6.5-17.el6": {
+          "package_url": "pkg:rpm/centos/upstart@0.6.5-17.el6?arch=x86_64&upstream=upstart-0.6.5-17.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/ustr@1.0.4-9.1.el6": {
+          "package_url": "pkg:rpm/centos/ustr@1.0.4-9.1.el6?arch=x86_64&upstream=ustr-1.0.4-9.1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/util-linux-ng@2.17.2-12.28.el6_9.2": {
+          "package_url": "pkg:rpm/centos/util-linux-ng@2.17.2-12.28.el6_9.2?arch=x86_64&upstream=util-linux-ng-2.17.2-12.28.el6_9.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/uuid@1.6.1-10.el6": {
+          "package_url": "pkg:rpm/centos/uuid@1.6.1-10.el6?arch=x86_64&upstream=uuid-1.6.1-10.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/vim-minimal@7.4.629-5.el6_10.2": {
+          "package_url": "pkg:rpm/centos/vim-minimal@7.4.629-5.el6_10.2?arch=x86_64&epoch=2&upstream=vim-7.4.629-5.el6_10.2.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/which@2.19-6.el6": {
+          "package_url": "pkg:rpm/centos/which@2.19-6.el6?arch=x86_64&upstream=which-2.19-6.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/xorg-x11-proto-devel@7.7-14.el6": {
+          "package_url": "pkg:rpm/centos/xorg-x11-proto-devel@7.7-14.el6?arch=noarch&upstream=xorg-x11-proto-devel-7.7-14.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/xz-libs@4.999.9-0.5.beta.20091007git.el6": {
+          "package_url": "pkg:rpm/centos/xz-libs@4.999.9-0.5.beta.20091007git.el6?arch=x86_64&upstream=xz-4.999.9-0.5.beta.20091007git.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/xz@4.999.9-0.5.beta.20091007git.el6": {
+          "package_url": "pkg:rpm/centos/xz@4.999.9-0.5.beta.20091007git.el6?arch=x86_64&upstream=xz-4.999.9-0.5.beta.20091007git.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/yasm@1.2.0-1.el6": {
+          "package_url": "pkg:rpm/centos/yasm@1.2.0-1.el6?arch=x86_64&upstream=yasm-1.2.0-1.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/yum-metadata-parser@1.1.2-16.el6": {
+          "dependencies": [
+            "pkg:pypi/yum-metadata-parser@1.1.2"
+          ],
+          "package_url": "pkg:rpm/centos/yum-metadata-parser@1.1.2-16.el6?arch=x86_64&upstream=yum-metadata-parser-1.1.2-16.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/yum-plugin-fastestmirror@1.1.30-42.el6_10": {
+          "package_url": "pkg:rpm/centos/yum-plugin-fastestmirror@1.1.30-42.el6_10?arch=noarch&upstream=yum-utils-1.1.30-42.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/yum-plugin-ovl@1.1.30-42.el6_10": {
+          "package_url": "pkg:rpm/centos/yum-plugin-ovl@1.1.30-42.el6_10?arch=noarch&upstream=yum-utils-1.1.30-42.el6_10.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/yum@3.2.29-81.el6.centos.0.1": {
+          "package_url": "pkg:rpm/centos/yum@3.2.29-81.el6.centos.0.1?arch=noarch&upstream=yum-3.2.29-81.el6.centos.0.1.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/zlib-devel@1.2.3-29.el6": {
+          "package_url": "pkg:rpm/centos/zlib-devel@1.2.3-29.el6?arch=x86_64&upstream=zlib-1.2.3-29.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        },
+        "pkg:rpm/centos/zlib@1.2.3-29.el6": {
+          "package_url": "pkg:rpm/centos/zlib@1.2.3-29.el6?arch=x86_64&upstream=zlib-1.2.3-29.el6.src.rpm&distro=centos-6.10",
+          "relationship": "direct",
+          "scope": "runtime"
+        }
+      }
+    }
+  },
+  "metadata": {
+    "syft:distro": "pkg:generic/centos@6.10?like=centos"
+  },
+  "version": 0
+}

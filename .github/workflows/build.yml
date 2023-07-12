@@ -1,0 +1,42 @@
+name: "Regenerate SBOMs"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: "Install Syft"
+        run: |
+          export SYFT_VERSION="v0.85.0"
+          curl -sSfL https://raw.githubusercontent.com/anchore/syft/main/install.sh | sh -s -- -b /usr/local/bin $(SYFT_VERSION)
+
+      - uses: "actions/setup-python@v4"
+        with:
+          python-version: "3.x"
+
+      - name: "Regenerate SBOMs"
+        run: |
+          # Regenerate the SBOMs
+          python build.py
+
+          # Only commit if there are changes to the 'sboms' directory.
+          if [[ `git status sboms/ --porcelain` ]]; then
+            # Change our Git username and email
+            git config --global user.name "Seth Michael Larson"
+            git config --global user.email "sethmichaellarson@gmail.com"
+  
+            # Create a commit and tag with the date attached
+            datetime=`date "+%Y-%-m-%-d"`
+            git checkout main
+            git add sboms/
+            git commit -m "Automated updates to SBOMs $datetime"
+  
+            # Use our GitHub token to make the commit
+            git remote rm origin
+            git remote add origin https://sethmlarson:${GITHUB_TOKEN}@github.com/sethmlarson/manylinux-image-sboms > /dev/null 2>&1
+            git push origin main --quiet --tags
+          fi
